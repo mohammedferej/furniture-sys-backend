@@ -1,0 +1,1681 @@
+[INFO] 2025-08-22 12:08:29,205 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/views.py changed, reloading.
+[INFO] 2025-08-22 12:08:29,629 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:08:38,509 orders:181 - PATCH /orders/9 - Update order request
+[WARNING] 2025-08-22 12:08:38,523 django.request:253 - Bad Request: /api/orders/9/
+[WARNING] 2025-08-22 12:08:38,525 django.server:213 - "PATCH /api/orders/9/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:09:40,808 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:09:51,347 orders:181 - PATCH /orders/9 - Update order request
+[WARNING] 2025-08-22 12:09:51,369 django.request:253 - Bad Request: /api/orders/9/
+[WARNING] 2025-08-22 12:09:51,370 django.server:213 - "PATCH /api/orders/9/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:11:18,097 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/views.py changed, reloading.
+[INFO] 2025-08-22 12:11:18,514 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:11:35,472 orders:182 - PATCH /orders/9 - Update order request
+[WARNING] 2025-08-22 12:11:35,487 django.request:253 - Bad Request: /api/orders/9/
+[WARNING] 2025-08-22 12:11:35,488 django.server:213 - "PATCH /api/orders/9/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:17:20,268 django.server:213 - "GET /api/auth/profile/ HTTP/1.1" 200 141
+[INFO] 2025-08-22 12:17:20,325 django.server:213 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 408
+[INFO] 2025-08-22 12:17:20,333 django.server:213 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 408
+[INFO] 2025-08-22 12:19:21,974 orders:182 - PATCH /orders/9 - Update order request
+[WARNING] 2025-08-22 12:19:21,982 django.request:253 - Bad Request: /api/orders/9/
+[WARNING] 2025-08-22 12:19:21,983 django.server:213 - "PATCH /api/orders/9/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:23:28,653 orders:182 - PATCH /orders/45 - Update order request
+[WARNING] 2025-08-22 12:23:28,658 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:23:28,659 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:34:57,795 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 12:34:58,184 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:35:13,970 orders:182 - PATCH /orders/45 - Update order request
+[WARNING] 2025-08-22 12:35:13,978 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:35:13,978 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:35:40,572 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/views.py changed, reloading.
+[INFO] 2025-08-22 12:35:40,938 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:35:44,758 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:35:44,764 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:35:44,765 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:35:44,766 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:36:00,641 orders:148 - PATCH /orders/45 - Update order request ***
+[INFO] 2025-08-22 12:36:00,650 orders:93 - Updating order ID 45 (serializer.update)
+[INFO] 2025-08-22 12:36:00,655 orders:163 - Order 45 updated successfully
+[INFO] 2025-08-22 12:36:00,733 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 200 614
+[INFO] 2025-08-22 12:37:15,489 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/views.py changed, reloading.
+[INFO] 2025-08-22 12:37:15,850 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:37:47,584 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-22 12:37:47,944 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:38:05,225 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:38:05,234 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:38:05,235 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:38:05,236 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:38:18,854 orders:148 - PATCH /orders/45 - Update order request ***
+[INFO] 2025-08-22 12:38:18,858 orders:93 - Updating order ID 45 (serializer.update)
+[INFO] 2025-08-22 12:38:18,863 orders:163 - Order 45 updated successfully
+[INFO] 2025-08-22 12:38:18,935 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 200 846
+[INFO] 2025-08-22 12:39:16,663 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:39:16,668 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:39:16,669 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:39:16,669 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:39:48,664 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:39:48,669 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:39:48,669 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:39:48,670 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:41:22,170 orders:148 - PATCH /orders/9 - Update order request ***
+[INFO] 2025-08-22 12:41:22,177 orders:93 - Updating order ID 9 (serializer.update)
+[INFO] 2025-08-22 12:41:22,186 orders:163 - Order 9 updated successfully
+[INFO] 2025-08-22 12:41:22,297 django.server:213 - "PATCH /api/orders/9/ HTTP/1.1" 200 594
+[INFO] 2025-08-22 12:41:24,392 orders:129 - GET /orders - List orders (user=AnonymousUser)
+[INFO] 2025-08-22 12:41:24,424 django.server:213 - "GET /api/orders/?page=1&page_size=10 HTTP/1.1" 200 4522
+[INFO] 2025-08-22 12:41:24,484 orders:129 - GET /orders - List orders (user=AnonymousUser)
+[INFO] 2025-08-22 12:41:24,512 django.server:213 - "GET /api/orders/?page=1&page_size=10 HTTP/1.1" 200 4522
+[INFO] 2025-08-22 12:41:35,673 orders:178 - GET /orders/1 - Retrieve order
+[INFO] 2025-08-22 12:41:35,675 orders:178 - GET /orders/1 - Retrieve order
+[INFO] 2025-08-22 12:41:35,688 django.server:213 - "GET /api/orders/1/ HTTP/1.1" 200 557
+[INFO] 2025-08-22 12:41:35,692 django.server:213 - "GET /api/orders/1/ HTTP/1.1" 200 557
+[INFO] 2025-08-22 12:41:58,898 orders:148 - PATCH /orders/1 - Update order request ***
+[INFO] 2025-08-22 12:41:58,906 orders:93 - Updating order ID 1 (serializer.update)
+[INFO] 2025-08-22 12:41:58,911 orders:163 - Order 1 updated successfully
+[INFO] 2025-08-22 12:41:59,163 django.server:213 - "PATCH /api/orders/1/ HTTP/1.1" 200 559
+[INFO] 2025-08-22 12:41:59,229 orders:129 - GET /orders - List orders (user=AnonymousUser)
+[INFO] 2025-08-22 12:41:59,260 django.server:213 - "GET /api/orders/?page=1&page_size=10 HTTP/1.1" 200 4540
+[INFO] 2025-08-22 12:41:59,316 orders:129 - GET /orders - List orders (user=AnonymousUser)
+[INFO] 2025-08-22 12:41:59,358 django.server:213 - "GET /api/orders/?page=1&page_size=10 HTTP/1.1" 200 4540
+[INFO] 2025-08-22 12:45:12,987 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 12:45:13,371 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:45:34,652 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:45:34,658 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:45:34,659 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:45:34,660 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:46:42,428 orders:148 - PATCH /orders/45 - Update order request ***
+[INFO] 2025-08-22 12:46:42,432 orders:105 - Updating order ID 45 (serializer.update)
+[INFO] 2025-08-22 12:46:42,436 orders:163 - Order 45 updated successfully
+[INFO] 2025-08-22 12:46:42,517 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 200 848
+[INFO] 2025-08-22 12:46:48,910 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:46:48,915 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:46:48,915 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:46:48,916 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:46:56,830 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 12:46:57,255 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:47:44,737 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 12:47:45,092 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:48:26,303 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 12:48:26,698 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:48:35,703 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:48:35,709 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:48:35,710 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:48:35,711 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:50:32,912 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 12:50:33,271 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:50:45,158 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 12:50:45,520 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:50:52,409 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:50:52,416 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:50:52,417 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:50:52,418 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:54:56,757 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 12:54:57,133 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:55:02,305 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:55:02,311 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:55:02,312 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:55:02,313 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:55:23,786 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 12:55:24,158 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:55:28,817 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:55:28,827 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:55:28,828 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:55:28,828 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 12:55:35,354 orders:148 - PATCH /orders/45 - Update order request ***
+[ERROR] 2025-08-22 12:55:35,359 orders:165 - Failed to update order 45
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 162, in update
+    self.perform_update(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1021, in update
+    raise_errors_on_nested_writes('update', self, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 842, in raise_errors_on_nested_writes
+    assert not any(
+AssertionError: The `.update()` method does not support writable nested fields by default.
+Write an explicit `.update()` method for serializer `api.serializers.OrderSerializer`, or set `read_only=True` on nested serializer fields.
+[WARNING] 2025-08-22 12:55:35,376 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:55:35,377 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 227
+[INFO] 2025-08-22 12:55:57,727 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:57:37,846 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 12:57:42,128 orders:148 - PATCH /orders/45 - Update order request ***
+[INFO] 2025-08-22 12:57:42,134 orders:93 - Updating order ID 45 (serializer.update)
+[INFO] 2025-08-22 12:57:42,139 orders:163 - Order 45 updated successfully
+[INFO] 2025-08-22 12:57:42,241 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 200 850
+[INFO] 2025-08-22 12:59:14,855 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 12:59:14,859 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 12:59:14,860 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 12:59:14,861 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 13:07:13,515 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 13:07:13,904 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 13:07:22,392 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 13:07:22,398 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 13:07:22,399 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 13:07:22,400 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 13:08:37,466 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 13:08:37,936 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 13:08:41,165 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 13:08:41,176 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 13:08:41,178 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 13:08:41,179 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 13:09:32,948 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 13:09:33,349 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 13:09:38,991 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 13:09:38,998 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 13:09:38,999 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 13:09:38,999 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 13:09:47,706 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 13:09:47,711 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 13:09:47,712 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 13:09:47,713 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 13:10:42,328 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 13:10:42,731 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 13:11:26,992 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 13:11:27,385 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 13:11:36,884 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 13:11:36,890 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 13:11:36,891 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 13:11:36,891 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 13:13:56,530 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 13:13:56,904 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 13:14:06,994 orders:148 - PATCH /orders/45 - Update order request ***
+[INFO] 2025-08-22 13:14:07,000 orders:163 - Order 45 updated successfully
+[ERROR] 2025-08-22 13:14:07,174 django.request:253 - Internal Server Error: /api/orders/45/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 262, in patch
+    return self.partial_update(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 168, in update
+    return Response(serializer.data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1717, in to_representation
+    for key, val in value.items()
+AttributeError: 'Customer' object has no attribute 'items'
+[ERROR] 2025-08-22 13:14:07,175 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 500 141896
+[INFO] 2025-08-22 13:16:16,360 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 13:16:16,789 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 13:16:22,312 orders:148 - PATCH /orders/45 - Update order request ***
+[WARNING] 2025-08-22 13:16:22,321 orders:157 - Validation failed for order 45: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-22 13:16:22,322 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 13:16:22,322 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 67
+[INFO] 2025-08-22 13:16:39,256 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 13:16:39,620 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 13:16:48,193 orders:148 - PATCH /orders/45 - Update order request ***
+[ERROR] 2025-08-22 13:16:48,203 orders:165 - Failed to update order 45
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 162, in update
+    self.perform_update(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1021, in update
+    raise_errors_on_nested_writes('update', self, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 842, in raise_errors_on_nested_writes
+    assert not any(
+AssertionError: The `.update()` method does not support writable nested fields by default.
+Write an explicit `.update()` method for serializer `api.serializers.OrderSerializer`, or set `read_only=True` on nested serializer fields.
+[WARNING] 2025-08-22 13:16:48,204 django.request:253 - Bad Request: /api/orders/45/
+[WARNING] 2025-08-22 13:16:48,205 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 400 227
+[INFO] 2025-08-22 13:17:35,525 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-22 13:17:35,927 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-22 13:17:42,034 orders:148 - PATCH /orders/45 - Update order request ***
+[INFO] 2025-08-22 13:17:42,040 orders:98 - Updating order ID 45 (serializer.update)
+[INFO] 2025-08-22 13:17:42,045 orders:163 - Order 45 updated successfully
+[INFO] 2025-08-22 13:17:42,203 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 200 665
+[INFO] 2025-08-22 13:17:57,901 django.server:213 - "POST /api/orders/create HTTP/1.1" 201 133
+[INFO] 2025-08-22 13:19:00,058 django.server:213 - "GET /media/order_documents/order_000004000012.pdf HTTP/1.1" 200 554535
+[INFO] 2025-08-26 07:20:57,746 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 07:21:09,891 orders:129 - GET /orders - List orders (user=AnonymousUser)
+[INFO] 2025-08-26 07:21:10,083 django.server:212 - "GET /api/orders/ HTTP/1.1" 200 4757
+[INFO] 2025-08-26 07:22:56,857 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-26 07:22:57,351 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 07:23:17,649 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-26 07:23:18,005 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 07:24:21,102 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 201 127
+[INFO] 2025-08-26 07:24:29,151 django.server:212 - "GET /media/order_documents/order_011111.pdf HTTP/1.1" 200 554536
+[WARNING] 2025-08-26 07:24:29,372 django.request:246 - Not Found: /favicon.ico
+[WARNING] 2025-08-26 07:24:29,373 django.server:212 - "GET /favicon.ico HTTP/1.1" 404 2880
+[INFO] 2025-08-26 08:24:05,344 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/views.py changed, reloading.
+[INFO] 2025-08-26 08:24:05,708 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 08:25:22,926 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 08:34:01,304 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/serializers.py changed, reloading.
+[INFO] 2025-08-26 08:34:01,671 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 08:34:21,004 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/views.py changed, reloading.
+[INFO] 2025-08-26 08:34:21,381 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 08:35:08,843 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-26 08:35:09,205 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 08:35:27,381 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-26 08:35:27,740 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 08:36:06,655 orders:15 - POST /orders - Create order request received
+[INFO] 2025-08-26 08:36:06,658 orders:64 - Creating order from nested Postman structure
+[ERROR] 2025-08-26 08:36:06,660 orders:42 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 22, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1469, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1430, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2025-07-09T21:00:00.000Z” value has an invalid date format. It must be in YYYY-MM-DD format.']
+[WARNING] 2025-08-26 08:36:06,726 django.request:246 - Bad Request: /api/mejlis-material/create
+[WARNING] 2025-08-26 08:36:06,729 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 400 113
+[INFO] 2025-08-26 08:37:59,631 orders:15 - POST /orders - Create order request received
+[INFO] 2025-08-26 08:37:59,633 orders:64 - Creating order from nested Postman structure
+[ERROR] 2025-08-26 08:37:59,637 orders:34 - PDF generation failed: 'str' object has no attribute 'strftime'
+[INFO] 2025-08-26 08:37:59,737 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 201 118
+[INFO] 2025-08-26 09:07:28,537 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 09:08:08,063 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/company/views.py changed, reloading.
+[INFO] 2025-08-26 09:08:08,413 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 09:11:07,643 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/settings.py changed, reloading.
+[INFO] 2025-08-26 09:11:07,989 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 09:11:34,155 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/company/serializers.py changed, reloading.
+[INFO] 2025-08-26 09:11:34,494 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-26 09:15:06,315 django.request:246 - Not Found: /api/company/
+[WARNING] 2025-08-26 09:15:06,315 django.server:212 - "POST /api/company/ HTTP/1.1" 404 6480
+[INFO] 2025-08-26 09:15:43,169 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-26 09:15:43,537 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-26 09:15:51,620 django.request:246 - Bad Request: /api/company/
+[WARNING] 2025-08-26 09:15:51,621 django.server:212 - "POST /api/company/ HTTP/1.1" 400 75
+[WARNING] 2025-08-26 09:16:12,009 django.request:246 - Bad Request: /api/company/
+[WARNING] 2025-08-26 09:16:12,010 django.server:212 - "POST /api/company/ HTTP/1.1" 400 84
+[WARNING] 2025-08-26 09:21:12,225 django.request:246 - Bad Request: /api/company/
+[WARNING] 2025-08-26 09:21:12,226 django.server:212 - "POST /api/company/ HTTP/1.1" 400 75
+[ERROR] 2025-08-26 09:21:34,577 django.request:246 - Internal Server Error: /api/company/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: core_companyinfo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: core_companyinfo
+[ERROR] 2025-08-26 09:21:34,578 django.server:212 - "POST /api/company/ HTTP/1.1" 500 223141
+[ERROR] 2025-08-26 09:21:48,906 django.request:246 - Internal Server Error: /api/company/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: core_companyinfo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: core_companyinfo
+[ERROR] 2025-08-26 09:21:48,907 django.server:212 - "POST /api/company/ HTTP/1.1" 500 223213
+[INFO] 2025-08-26 09:23:11,605 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 09:23:39,947 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 09:23:45,815 django.server:212 - "POST /api/company/ HTTP/1.1" 201 254
+[INFO] 2025-08-26 09:25:36,807 orders:15 - POST /orders - Create order request received
+[WARNING] 2025-08-26 09:25:36,810 orders:45 - Validation failed: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-26 09:25:36,811 django.request:246 - Bad Request: /api/mejlis-material/create
+[WARNING] 2025-08-26 09:25:36,811 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 400 67
+[INFO] 2025-08-26 09:25:56,569 orders:15 - POST /orders - Create order request received
+[INFO] 2025-08-26 09:25:56,572 orders:64 - Creating order from nested Postman structure
+[ERROR] 2025-08-26 09:25:56,573 orders:42 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: order_order.order_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 22, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: order_order.order_code
+[WARNING] 2025-08-26 09:25:56,574 django.request:246 - Bad Request: /api/mejlis-material/create
+[WARNING] 2025-08-26 09:25:56,575 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 400 60
+[INFO] 2025-08-26 09:26:04,648 orders:15 - POST /orders - Create order request received
+[INFO] 2025-08-26 09:26:04,650 orders:64 - Creating order from nested Postman structure
+[INFO] 2025-08-26 09:26:05,964 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 201 131
+[INFO] 2025-08-26 09:26:14,596 django.server:212 - "GET /media/order_documents/order_0110011111.pdf HTTP/1.1" 200 344475
+[WARNING] 2025-08-26 09:26:14,689 django.request:246 - Not Found: /favicon.ico
+[WARNING] 2025-08-26 09:26:14,690 django.server:212 - "GET /favicon.ico HTTP/1.1" 404 2880
+[INFO] 2025-08-26 09:36:11,868 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/admin.py changed, reloading.
+[INFO] 2025-08-26 09:36:12,250 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 09:41:03,392 django.server:212 - "POST /api/company/ HTTP/1.1" 201 239
+[INFO] 2025-08-26 09:41:28,537 orders:15 - POST /orders - Create order request received
+[INFO] 2025-08-26 09:41:28,540 orders:64 - Creating order from nested Postman structure
+[INFO] 2025-08-26 09:41:29,882 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 201 127
+[INFO] 2025-08-26 09:41:33,472 django.server:212 - "GET /media/order_documents/order_532wew.pdf HTTP/1.1" 200 344466
+[WARNING] 2025-08-26 09:41:33,568 django.request:246 - Not Found: /favicon.ico
+[WARNING] 2025-08-26 09:41:33,569 django.server:212 - "GET /favicon.ico HTTP/1.1" 404 2880
+[INFO] 2025-08-26 09:47:27,589 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/views.py changed, reloading.
+[INFO] 2025-08-26 09:47:28,039 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 09:54:31,651 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 09:59:34,100 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-26 09:59:42,189 django.request:246 - Not Found: /api/orders/
+[WARNING] 2025-08-26 09:59:42,190 django.server:212 - "GET /api/orders/ HTTP/1.1" 404 6480
+[WARNING] 2025-08-26 10:00:13,380 django.request:246 - Not Found: /api/mejlis/
+[WARNING] 2025-08-26 10:00:13,380 django.server:212 - "GET /api/mejlis/ HTTP/1.1" 404 6480
+[WARNING] 2025-08-26 10:00:26,409 django.request:246 - Not Found: /api/mejlis-material/
+[WARNING] 2025-08-26 10:00:26,409 django.server:212 - "GET /api/mejlis-material/ HTTP/1.1" 404 6507
+[INFO] 2025-08-26 10:01:14,310 django.server:212 - "GET /api/company/ HTTP/1.1" 200 546
+[WARNING] 2025-08-26 10:04:02,849 django.request:246 - Not Found: /api/company/2
+[WARNING] 2025-08-26 10:04:47,250 django.request:246 - Not Found: /api/company/2
+[WARNING] 2025-08-26 10:04:47,250 django.server:212 - "GET /api/company/2 HTTP/1.1" 404 6486
+[INFO] 2025-08-26 10:05:17,129 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-26 10:05:17,526 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 10:05:25,565 django.server:212 - "GET /api/company/2 HTTP/1.1" 301 0
+[INFO] 2025-08-26 10:05:25,572 django.server:212 - "GET /api/company/2/ HTTP/1.1" 200 239
+[ERROR] 2025-08-26 10:05:45,382 django.request:246 - Internal Server Error: /api/company/2
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/company/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ERROR] 2025-08-26 10:05:45,383 django.server:212 - "PUT /api/company/2 HTTP/1.1" 500 83939
+[INFO] 2025-08-26 10:05:58,323 django.server:212 - "PUT /api/company/2/ HTTP/1.1" 200 225
+[WARNING] 2025-08-26 10:06:16,482 django.request:246 - Method Not Allowed: /api/company/2/
+[WARNING] 2025-08-26 10:06:16,482 django.server:212 - "DELETE /api/company/2/ HTTP/1.1" 405 43
+[INFO] 2025-08-26 11:01:10,876 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:06:52,358 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/company/views.py changed, reloading.
+[INFO] 2025-08-26 11:06:52,855 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:07:11,806 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/company/serializers.py changed, reloading.
+[INFO] 2025-08-26 11:07:12,148 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:12:58,584 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/company/views.py changed, reloading.
+[INFO] 2025-08-26 11:12:58,989 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:13:15,358 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/admin.py changed, reloading.
+[INFO] 2025-08-26 11:13:15,682 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:13:49,354 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/admin.py changed, reloading.
+[INFO] 2025-08-26 11:13:49,716 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:14:10,267 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/settings.py changed, reloading.
+[INFO] 2025-08-26 11:14:10,622 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:14:28,425 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/company/serializers.py changed, reloading.
+[INFO] 2025-08-26 11:14:28,761 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:14:51,730 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/company/views.py changed, reloading.
+[INFO] 2025-08-26 11:14:52,079 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:16:24,951 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/company/views.py changed, reloading.
+[INFO] 2025-08-26 11:16:25,273 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:17:18,329 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-26 11:17:18,663 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:18:37,646 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:19:41,327 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/order/utils.py changed, reloading.
+[INFO] 2025-08-26 11:19:41,684 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:21:52,741 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/order/utils.py changed, reloading.
+[INFO] 2025-08-26 11:21:53,153 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:22:16,219 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-26 11:41:19,479 django.request:246 - Not Found: /api/company/2/
+[WARNING] 2025-08-26 11:41:19,480 django.server:212 - "DELETE /api/company/2/ HTTP/1.1" 404 52
+[INFO] 2025-08-26 11:41:32,233 django.server:212 - "GET /api/company/ HTTP/1.1" 200 52
+[INFO] 2025-08-26 11:41:44,123 django.server:212 - "POST /api/company/ HTTP/1.1" 201 239
+[INFO] 2025-08-26 11:41:51,755 django.server:212 - "GET /media/company_logos/rrr_2NCNWpM.png HTTP/1.1" 200 313582
+[WARNING] 2025-08-26 11:41:51,867 django.request:246 - Not Found: /favicon.ico
+[WARNING] 2025-08-26 11:41:51,867 django.server:212 - "GET /favicon.ico HTTP/1.1" 404 2698
+[INFO] 2025-08-26 11:42:07,935 django.server:212 - "GET /api/company/2 HTTP/1.1" 301 0
+[WARNING] 2025-08-26 11:42:07,939 django.request:246 - Not Found: /api/company/2/
+[WARNING] 2025-08-26 11:42:07,939 django.server:212 - "GET /api/company/2/ HTTP/1.1" 404 52
+[INFO] 2025-08-26 11:42:12,959 django.server:212 - "GET /api/company/1 HTTP/1.1" 301 0
+[INFO] 2025-08-26 11:42:12,964 django.server:212 - "GET /api/company/1/ HTTP/1.1" 200 239
+[INFO] 2025-08-26 11:42:26,198 django.server:212 - "POST /api/company/ HTTP/1.1" 201 239
+[INFO] 2025-08-26 11:42:30,889 django.server:212 - "GET /api/company/ HTTP/1.1" 200 531
+[INFO] 2025-08-26 11:42:46,870 django.server:212 - "PUT /api/company/2/ HTTP/1.1" 200 233
+[INFO] 2025-08-26 11:42:55,521 django.server:212 - "DELETE /api/company/2/ HTTP/1.1" 204 0
+[INFO] 2025-08-26 11:43:05,258 django.server:212 - "GET /api/company/ HTTP/1.1" 200 291
+[INFO] 2025-08-26 11:43:39,070 orders:15 - POST /orders - Create order request received
+[WARNING] 2025-08-26 11:43:39,073 orders:45 - Validation failed: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-26 11:43:39,073 django.request:246 - Bad Request: /api/mejlis-material/create
+[WARNING] 2025-08-26 11:43:39,073 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 400 67
+[INFO] 2025-08-26 11:43:48,809 orders:15 - POST /orders - Create order request received
+[INFO] 2025-08-26 11:43:48,811 orders:64 - Creating order from nested Postman structure
+[ERROR] 2025-08-26 11:43:48,814 orders:42 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: order_order.order_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 22, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: order_order.order_code
+[WARNING] 2025-08-26 11:43:48,815 django.request:246 - Bad Request: /api/mejlis-material/create
+[WARNING] 2025-08-26 11:43:48,816 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 400 60
+[INFO] 2025-08-26 11:43:58,978 orders:15 - POST /orders - Create order request received
+[INFO] 2025-08-26 11:43:58,980 orders:64 - Creating order from nested Postman structure
+[INFO] 2025-08-26 11:44:00,318 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 201 128
+[WARNING] 2025-08-26 11:44:24,357 django.request:246 - Not Found: /api/mejlis-material/
+[WARNING] 2025-08-26 11:44:24,357 django.server:212 - "GET /api/mejlis-material/ HTTP/1.1" 404 6605
+[INFO] 2025-08-26 11:45:19,982 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-26 11:45:20,379 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 11:49:04,030 orders:15 - POST /orders - Create order request received
+[INFO] 2025-08-26 11:49:04,032 orders:64 - Creating order from nested Postman structure
+[INFO] 2025-08-26 11:49:05,394 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 201 128
+[INFO] 2025-08-26 12:04:16,478 django.server:212 - "GET /media/order_documents/order_ord-454.pdf HTTP/1.1" 200 344456
+[WARNING] 2025-08-26 12:04:16,602 django.request:246 - Not Found: /favicon.ico
+[WARNING] 2025-08-26 12:04:16,603 django.server:212 - "GET /favicon.ico HTTP/1.1" 404 2698
+[WARNING] 2025-08-26 12:05:11,780 django.request:246 - Not Found: /api/company/2/
+[WARNING] 2025-08-26 12:05:11,780 django.server:212 - "DELETE /api/company/2/ HTTP/1.1" 404 52
+[INFO] 2025-08-26 12:05:21,297 django.server:212 - "DELETE /api/company/1/ HTTP/1.1" 204 0
+[INFO] 2025-08-26 12:05:26,210 django.server:212 - "GET /api/company/ HTTP/1.1" 200 52
+[INFO] 2025-08-26 12:05:51,079 django.server:212 - "POST /api/company/ HTTP/1.1" 201 231
+[INFO] 2025-08-26 12:06:08,846 django.server:212 - "GET /media/company_logos/zzb.png HTTP/1.1" 200 117391
+[INFO] 2025-08-26 12:14:26,085 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/urls.py changed, reloading.
+[INFO] 2025-08-26 12:14:26,477 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 12:14:41,437 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-26 12:14:41,786 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 12:14:57,769 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-26 12:14:58,154 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 12:15:54,485 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-26 12:15:54,878 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-26 12:21:22,970 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-26 12:22:03,731 django.request:246 - Method Not Allowed: /api/materials/mejlis/
+[WARNING] 2025-08-26 12:22:03,731 django.server:212 - "GET /api/materials/mejlis/ HTTP/1.1" 405 40
+[INFO] 2025-08-26 12:22:38,505 django.server:212 - "GET /api/materials/mejlis/list/ HTTP/1.1" 200 4784
+[WARNING] 2025-08-26 12:23:56,916 django.request:246 - Not Found: /api/material/mejlis/1
+[WARNING] 2025-08-26 12:23:56,917 django.server:212 - "GET /api/material/mejlis/1 HTTP/1.1" 404 7068
+[INFO] 2025-08-26 12:24:20,611 django.server:212 - "GET /api/materials/mejlis/1 HTTP/1.1" 301 0
+[INFO] 2025-08-26 12:24:20,619 django.server:212 - "GET /api/materials/mejlis/1/ HTTP/1.1" 200 415
+[INFO] 2025-08-26 12:25:24,267 django.server:212 - "GET /api/materials/mejlis/list/ HTTP/1.1" 200 4784
+[INFO] 2025-08-28 06:59:10,986 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 07:18:38,316 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-28 07:18:38,768 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 07:21:23,550 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 07:21:23,936 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 07:26:38,424 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/order/models.py changed, reloading.
+[INFO] 2025-08-28 07:26:38,826 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 07:27:54,440 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-28 07:27:54,864 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 07:33:59,876 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/order/models.py changed, reloading.
+[INFO] 2025-08-28 07:34:00,289 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 07:36:51,801 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 07:36:52,177 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-28 07:38:27,379 django.request:246 - Not Found: /api/mejlis-material/create
+[WARNING] 2025-08-28 07:38:27,380 django.server:212 - "POST /api/mejlis-material/create HTTP/1.1" 404 8250
+[INFO] 2025-08-28 07:39:22,602 orders:19 - POST /orders - Create order request received
+[WARNING] 2025-08-28 07:39:22,614 orders:49 - Validation failed: {'customer': {'phone': [ErrorDetail(string='customer with this phone already exists.', code='unique')]}}
+[WARNING] 2025-08-28 07:39:22,615 django.request:246 - Bad Request: /api/materials/mejlis/
+[WARNING] 2025-08-28 07:39:22,615 django.server:212 - "POST /api/materials/mejlis/ HTTP/1.1" 400 67
+[INFO] 2025-08-28 07:39:40,692 orders:19 - POST /orders - Create order request received
+[INFO] 2025-08-28 07:39:40,694 orders:64 - Creating order from nested Postman structure
+[ERROR] 2025-08-28 07:39:40,696 orders:46 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 26, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/order/models.py", line 44, in save
+    self.remaining_payment = self.total_price - self.app_front
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+[WARNING] 2025-08-28 07:39:40,749 django.request:246 - Bad Request: /api/materials/mejlis/
+[WARNING] 2025-08-28 07:39:40,750 django.server:212 - "POST /api/materials/mejlis/ HTTP/1.1" 400 62
+[INFO] 2025-08-28 07:41:11,154 orders:19 - POST /orders - Create order request received
+[INFO] 2025-08-28 07:41:11,156 orders:64 - Creating order from nested Postman structure
+[ERROR] 2025-08-28 07:41:11,158 orders:46 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table order_order has no column named status
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 26, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/order/models.py", line 45, in save
+    super().save(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table order_order has no column named status
+[WARNING] 2025-08-28 07:41:11,198 django.request:246 - Bad Request: /api/materials/mejlis/
+[WARNING] 2025-08-28 07:41:11,199 django.server:212 - "POST /api/materials/mejlis/ HTTP/1.1" 400 56
+[INFO] 2025-08-28 07:43:41,404 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 07:44:01,044 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 07:44:08,302 orders:19 - POST /orders - Create order request received
+[INFO] 2025-08-28 07:44:08,304 orders:64 - Creating order from nested Postman structure
+[INFO] 2025-08-28 07:44:08,720 django.server:212 - "POST /api/materials/mejlis/ HTTP/1.1" 201 129
+[ERROR] 2025-08-28 07:44:41,425 django.request:246 - Internal Server Error: /api/materials/mejlis/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 66, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 18, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 49, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 82, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 371, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: material_type
+[ERROR] 2025-08-28 07:44:41,426 django.server:212 - "GET /api/materials/mejlis/list/ HTTP/1.1" 500 143516
+[ERROR] 2025-08-28 07:46:05,992 django.request:246 - Internal Server Error: /api/orders/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 66, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 18, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 49, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 82, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 371, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: material_type
+[ERROR] 2025-08-28 07:46:05,993 django.server:212 - "GET /api/orders/list/ HTTP/1.1" 500 143326
+[INFO] 2025-08-28 08:04:46,314 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 08:04:46,750 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[ERROR] 2025-08-28 08:04:54,277 django.request:246 - Internal Server Error: /api/orders/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 66, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 18, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 49, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 82, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 371, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: material_type
+[ERROR] 2025-08-28 08:04:54,278 django.server:212 - "GET /api/orders/list/ HTTP/1.1" 500 143326
+[INFO] 2025-08-28 08:11:18,650 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 08:11:19,105 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[ERROR] 2025-08-28 08:11:29,451 django.request:246 - Internal Server Error: /api/orders/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 66, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 18, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 49, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 82, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 371, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: material_type
+[ERROR] 2025-08-28 08:11:29,452 django.server:212 - "GET /api/orders/list/ HTTP/1.1" 500 143326
+[INFO] 2025-08-28 08:12:17,015 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-28 08:12:17,425 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 08:12:22,038 django.server:212 - "GET /api/orders/list/ HTTP/1.1" 200 5428
+[WARNING] 2025-08-28 08:14:18,216 django.request:246 - Not Found: /api/orders/list/1
+[WARNING] 2025-08-28 08:14:18,217 django.server:212 - "GET /api/orders/list/1 HTTP/1.1" 404 8222
+[INFO] 2025-08-28 08:18:20,375 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 08:18:20,840 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 08:19:09,962 orders:19 - POST /orders - Create order request received
+[INFO] 2025-08-28 08:19:09,964 orders:72 - Creating order from nested Postman structure
+[INFO] 2025-08-28 08:19:10,267 django.server:212 - "POST /api/orders/mejlis/create HTTP/1.1" 201 130
+[INFO] 2025-08-28 08:19:40,353 django.server:212 - "GET /api/orders/mejlis/list/ HTTP/1.1" 200 5453
+[INFO] 2025-08-28 08:20:21,564 django.server:212 - "GET /api/orders/mejlis/getbyid/55 HTTP/1.1" 301 0
+[ERROR] 2025-08-28 08:20:21,607 django.request:246 - Internal Server Error: /api/orders/mejlis/getbyid/55/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view OrderDetailView to be called with a URL keyword argument named "id". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+[ERROR] 2025-08-28 08:20:21,608 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 500 116307
+[ERROR] 2025-08-28 08:20:31,807 django.request:246 - Internal Server Error: /api/orders/mejlis/getbyid/55/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view OrderDetailView to be called with a URL keyword argument named "id". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+[ERROR] 2025-08-28 08:20:31,807 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 500 116135
+[INFO] 2025-08-28 08:20:52,183 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 08:20:52,701 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[ERROR] 2025-08-28 08:21:03,129 django.request:246 - Internal Server Error: /api/orders/mejlis/getbyid/55/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view OrderDetailView to be called with a URL keyword argument named "id". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+[ERROR] 2025-08-28 08:21:03,130 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 500 116135
+[INFO] 2025-08-28 08:22:43,022 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 08:22:43,411 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 08:22:48,826 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 200 544
+[INFO] 2025-08-28 08:24:15,389 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 08:24:15,784 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[ERROR] 2025-08-28 08:24:19,638 django.request:246 - Internal Server Error: /api/orders/mejlis/getbyid/55/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `material_type` is not valid for model `Order` in `api.mejlis.serializers.OrderSerializer`.
+[ERROR] 2025-08-28 08:24:19,640 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 500 159338
+[INFO] 2025-08-28 08:24:45,056 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 08:24:45,471 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 08:24:50,943 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 200 510
+[INFO] 2025-08-28 08:34:11,552 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 08:34:12,016 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 08:34:40,928 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-28 08:34:41,353 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 08:34:55,419 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 200 761
+[INFO] 2025-08-28 08:41:09,322 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 08:41:09,769 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 08:41:16,167 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 200 750
+[INFO] 2025-08-28 08:41:54,915 django.server:212 - "GET /api/orders/mejlis/list/ HTTP/1.1" 200 7541
+[INFO] 2025-08-28 08:42:21,884 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 200 750
+[ERROR] 2025-08-28 08:46:02,113 django.request:246 - Internal Server Error: /api/orders/mejlis/55/update/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: put() missing 1 required positional argument: 'id'
+[ERROR] 2025-08-28 08:46:02,114 django.server:212 - "PUT /api/orders/mejlis/55/update/ HTTP/1.1" 500 102132
+[INFO] 2025-08-28 08:46:30,487 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 08:46:30,951 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-28 08:46:39,084 django.request:246 - Bad Request: /api/orders/mejlis/55/update/
+[WARNING] 2025-08-28 08:46:39,084 django.server:212 - "PUT /api/orders/mejlis/55/update/ HTTP/1.1" 400 239
+[INFO] 2025-08-28 09:01:54,994 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-28 09:01:55,418 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 09:03:38,554 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 09:03:38,983 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 09:03:44,987 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-28 09:03:45,416 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[ERROR] 2025-08-28 09:03:54,352 orders:101 - Error while updating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 85, in put
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 156, in update
+    instance.save()
+  File "/home/mferej/Downloads/furniture-backend-main/order/models.py", line 44, in save
+    self.remaining_payment = self.total_price - self.app_front
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+[WARNING] 2025-08-28 09:03:54,354 django.request:246 - Bad Request: /api/orders/mejlis/55/update/
+[WARNING] 2025-08-28 09:03:54,355 django.server:212 - "PUT /api/orders/mejlis/55/update/ HTTP/1.1" 400 62
+[INFO] 2025-08-28 09:04:55,078 django.server:212 - "PUT /api/orders/mejlis/55/update/ HTTP/1.1" 200 131
+[INFO] 2025-08-28 09:05:04,792 django.server:212 - "GET /media/order_documents/order_ord-232323.pdf HTTP/1.1" 200 164777
+[INFO] 2025-08-28 09:09:04,521 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 09:09:04,925 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 09:09:37,103 django.server:212 - "GET /api/orders/mejlis/list/ HTTP/1.1" 200 7538
+[INFO] 2025-08-28 09:10:01,390 django.server:212 - "DELETE /api/orders/mejlis/46/delete/ HTTP/1.1" 204 40
+[INFO] 2025-08-28 09:10:07,798 django.server:212 - "GET /api/orders/mejlis/list/ HTTP/1.1" 200 7541
+[INFO] 2025-08-28 09:12:41,264 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 09:12:41,714 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-28 09:12:48,622 django.request:246 - Bad Request: /api/orders/mejlis/updatestatus/45/status/
+[WARNING] 2025-08-28 09:12:48,622 django.server:212 - "PATCH /api/orders/mejlis/updatestatus/45/status/ HTTP/1.1" 400 99
+[INFO] 2025-08-28 09:13:05,280 django.server:212 - "PATCH /api/orders/mejlis/updatestatus/45/status/ HTTP/1.1" 200 50
+[INFO] 2025-08-28 11:25:01,266 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/order/models.py changed, reloading.
+[INFO] 2025-08-28 11:25:01,729 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:28:15,718 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/mejlis/models.py changed, reloading.
+[INFO] 2025-08-28 11:28:16,167 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:34:58,396 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:35:31,073 orders:101 - Creating order from nested structure
+[ERROR] 2025-08-28 11:35:31,077 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 25, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 126, in create
+    material = MejlisMaterial.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 656, in create
+    obj = self.model(**kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: MejlisMaterial() got unexpected keyword arguments: 'material_type'
+[WARNING] 2025-08-28 11:35:31,080 django.request:246 - Bad Request: /api/orders/mejlis/create
+[WARNING] 2025-08-28 11:35:31,080 django.server:212 - "POST /api/orders/mejlis/create HTTP/1.1" 400 78
+[INFO] 2025-08-28 11:39:16,540 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 11:39:16,971 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:39:27,114 orders:101 - Creating order from nested structure
+[ERROR] 2025-08-28 11:39:27,118 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 25, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 136, in create
+    side_name=seg['side_name'],
+TypeError: string indices must be integers
+[WARNING] 2025-08-28 11:39:27,121 django.request:246 - Bad Request: /api/orders/mejlis/create
+[WARNING] 2025-08-28 11:39:27,121 django.server:212 - "POST /api/orders/mejlis/create HTTP/1.1" 400 43
+[INFO] 2025-08-28 11:40:43,860 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/mejlis/models.py changed, reloading.
+[INFO] 2025-08-28 11:40:44,320 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:41:27,238 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/order/models.py changed, reloading.
+[INFO] 2025-08-28 11:41:27,695 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:41:38,950 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/mejlis/models.py changed, reloading.
+[INFO] 2025-08-28 11:41:39,517 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:42:43,587 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:42:53,844 orders:101 - Creating order from nested structure
+[ERROR] 2025-08-28 11:42:53,847 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 25, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 136, in create
+    side_name=seg['side_name'],
+TypeError: string indices must be integers
+[WARNING] 2025-08-28 11:42:53,848 django.request:246 - Bad Request: /api/orders/mejlis/create
+[WARNING] 2025-08-28 11:42:53,849 django.server:212 - "POST /api/orders/mejlis/create HTTP/1.1" 400 43
+[INFO] 2025-08-28 11:44:35,010 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 11:44:35,405 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:44:44,649 orders:101 - Creating order from nested structure
+[ERROR] 2025-08-28 11:44:44,653 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 25, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 136, in create
+    side_name=seg['side_name'],
+TypeError: string indices must be integers
+[WARNING] 2025-08-28 11:44:44,656 django.request:246 - Bad Request: /api/orders/mejlis/create
+[WARNING] 2025-08-28 11:44:44,656 django.server:212 - "POST /api/orders/mejlis/create HTTP/1.1" 400 43
+[INFO] 2025-08-28 11:47:32,922 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 11:47:33,320 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:47:41,018 orders:101 - Creating order from nested structure
+[ERROR] 2025-08-28 11:47:41,030 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 26, in post
+    pdf_url = generate_order_pdf(order)
+  File "/home/mferej/Downloads/furniture-backend-main/order/utils.py", line 176, in generate_order_pdf
+    ["Type", material.material_type],
+AttributeError: 'MejlisMaterial' object has no attribute 'material_type'
+[WARNING] 2025-08-28 11:47:41,032 django.request:246 - Bad Request: /api/orders/mejlis/create
+[WARNING] 2025-08-28 11:47:41,033 django.server:212 - "POST /api/orders/mejlis/create HTTP/1.1" 400 68
+[INFO] 2025-08-28 11:53:10,583 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/order/models.py changed, reloading.
+[INFO] 2025-08-28 11:53:11,015 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:55:26,988 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:55:42,970 orders:101 - Creating order from nested structure
+[ERROR] 2025-08-28 11:55:42,978 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 26, in post
+    pdf_url = generate_order_pdf(order)
+  File "/home/mferej/Downloads/furniture-backend-main/order/utils.py", line 176, in generate_order_pdf
+    ["Type", material.material_type],
+AttributeError: 'MejlisMaterial' object has no attribute 'material_type'
+[WARNING] 2025-08-28 11:55:42,979 django.request:246 - Bad Request: /api/orders/mejlis/create
+[WARNING] 2025-08-28 11:55:42,980 django.server:212 - "POST /api/orders/mejlis/create HTTP/1.1" 400 68
+[INFO] 2025-08-28 11:58:18,587 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/order/utils.py changed, reloading.
+[INFO] 2025-08-28 11:58:19,058 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 11:58:29,718 orders:101 - Creating order from nested structure
+[INFO] 2025-08-28 11:58:30,037 django.server:212 - "POST /api/orders/mejlis/create HTTP/1.1" 201 130
+[INFO] 2025-08-28 11:58:35,417 django.server:212 - "GET /media/order_documents/order_ord-10245.pdf HTTP/1.1" 200 164777
+[WARNING] 2025-08-28 11:58:35,665 django.request:246 - Not Found: /favicon.ico
+[WARNING] 2025-08-28 11:58:35,666 django.server:212 - "GET /favicon.ico HTTP/1.1" 404 2655
+[INFO] 2025-08-28 12:05:19,418 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-28 12:05:19,928 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:06:08,613 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 12:06:09,131 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[ERROR] 2025-08-28 12:06:16,109 django.request:246 - Internal Server Error: /api/orders/mejlis/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `material_type` is not valid for model `MejlisMaterial` in `api.mejlis.serializers.MejlisMaterialSerializer`.
+[ERROR] 2025-08-28 12:06:16,110 django.server:212 - "GET /api/orders/mejlis/list/ HTTP/1.1" 500 181340
+[INFO] 2025-08-28 12:07:38,842 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 12:07:39,294 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:07:55,382 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 12:07:55,841 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:08:03,082 django.server:212 - "GET /api/orders/mejlis/list/ HTTP/1.1" 200 7730
+[INFO] 2025-08-28 12:10:03,559 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py changed, reloading.
+[INFO] 2025-08-28 12:10:03,981 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:10:08,361 django.server:212 - "GET /api/orders/mejlis/list/ HTTP/1.1" 200 7730
+[WARNING] 2025-08-28 12:11:39,574 django.request:246 - Not Found: /api/orders/orders/material/arabia mejlis/
+[WARNING] 2025-08-28 12:11:39,574 django.server:212 - "GET /api/orders/orders/material/arabia%20mejlis/ HTTP/1.1" 404 7983
+[INFO] 2025-08-28 12:11:55,919 django.server:212 - "GET /api/orders/material/arabia%20mejlis/ HTTP/1.1" 200 802
+[INFO] 2025-08-28 12:12:24,907 orders:103 - Creating order from nested structure
+[INFO] 2025-08-28 12:12:25,267 django.server:212 - "POST /api/orders/mejlis/create HTTP/1.1" 201 129
+[INFO] 2025-08-28 12:12:36,791 django.server:212 - "GET /api/orders/material/bed/ HTTP/1.1" 200 787
+[INFO] 2025-08-28 12:14:47,353 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py changed, reloading.
+[INFO] 2025-08-28 12:14:47,743 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:15:19,195 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/materials/urls.py changed, reloading.
+[INFO] 2025-08-28 12:15:19,684 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:16:06,782 django.server:212 - "GET /api/orders/status/cancelled/ HTTP/1.1" 200 805
+[INFO] 2025-08-28 12:37:59,855 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-28 12:38:02,404 django.request:246 - Not Found: /
+[WARNING] 2025-08-28 12:38:02,404 django.server:212 - "GET / HTTP/1.1" 404 2604
+[WARNING] 2025-08-28 12:38:02,487 django.request:246 - Not Found: /favicon.ico
+[WARNING] 2025-08-28 12:38:02,487 django.server:212 - "GET /favicon.ico HTTP/1.1" 404 2655
+[WARNING] 2025-08-28 12:38:14,386 django.request:246 - Not Found: /admins
+[WARNING] 2025-08-28 12:38:14,386 django.server:212 - "GET /admins HTTP/1.1" 404 2640
+[WARNING] 2025-08-28 12:38:14,431 django.request:246 - Not Found: /favicon.ico
+[INFO] 2025-08-28 12:38:25,767 django.server:212 - "GET /admin HTTP/1.1" 301 0
+[INFO] 2025-08-28 12:38:25,788 django.server:212 - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-08-28 12:38:25,829 django.server:212 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+[INFO] 2025-08-28 12:38:25,919 django.server:212 - "GET /static/admin/js/theme.js HTTP/1.1" 200 1943
+[INFO] 2025-08-28 12:38:25,919 django.server:212 - "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+[INFO] 2025-08-28 12:38:25,920 django.server:212 - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+[INFO] 2025-08-28 12:38:25,921 django.server:212 - "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+[INFO] 2025-08-28 12:38:25,921 django.server:212 - "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[INFO] 2025-08-28 12:38:25,921 django.server:212 - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+[INFO] 2025-08-28 12:38:25,922 django.server:212 - "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+[WARNING] 2025-08-28 12:38:26,047 django.request:246 - Not Found: /favicon.ico
+[INFO] 2025-08-28 12:38:37,474 django.server:212 - "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4351
+[WARNING] 2025-08-28 12:38:37,521 django.request:246 - Not Found: /favicon.ico
+[INFO] 2025-08-28 12:38:50,930 django.server:212 - "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4351
+[INFO] 2025-08-28 12:49:54,965 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-28 12:49:55,349 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:50:49,084 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-08-28 12:50:49,497 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:51:29,376 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-28 12:51:29,750 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:57:58,794 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/permissions.py changed, reloading.
+[INFO] 2025-08-28 12:57:59,178 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:58:19,564 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-28 12:58:19,925 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:58:44,320 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-28 12:58:44,697 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:59:07,079 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-08-28 12:59:07,441 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 12:59:39,216 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-08-28 12:59:39,580 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:00:33,300 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-28 13:00:33,722 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:01:23,320 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-28 13:01:23,710 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:01:49,317 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-28 13:01:49,688 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:02:00,564 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-28 13:02:00,962 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:02:56,737 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-08-28 13:02:57,145 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:03:24,741 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/permissions.py changed, reloading.
+[INFO] 2025-08-28 13:03:25,102 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:05:11,090 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-28 13:05:11,478 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:05:27,492 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/permissions.py changed, reloading.
+[INFO] 2025-08-28 13:05:27,932 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:05:40,998 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-08-28 13:05:41,399 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:06:03,962 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-28 13:06:04,317 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:06:24,612 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-08-28 13:06:24,985 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:09:20,124 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/core/settings.py changed, reloading.
+[INFO] 2025-08-28 13:09:20,483 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[ERROR] 2025-08-28 13:11:41,762 django.request:246 - Internal Server Error: /api/auth/register/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table users_customuser has no column named role
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/users/serializers.py", line 20, in create
+    return User.objects.create_user(**validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/users/models.py", line 21, in create_user
+    user.save(using=self._db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table users_customuser has no column named role
+[ERROR] 2025-08-28 13:11:41,764 django.server:212 - "POST /api/auth/register/ HTTP/1.1" 500 221140
+[INFO] 2025-08-28 13:12:55,425 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[ERROR] 2025-08-28 13:12:59,066 django.request:246 - Internal Server Error: /api/auth/register/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table users_customuser has no column named role
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/users/serializers.py", line 20, in create
+    return User.objects.create_user(**validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/users/models.py", line 21, in create_user
+    user.save(using=self._db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table users_customuser has no column named role
+[ERROR] 2025-08-28 13:12:59,068 django.server:212 - "POST /api/auth/register/ HTTP/1.1" 500 221140
+[INFO] 2025-08-28 13:15:23,270 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:15:40,857 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:15:45,930 django.server:212 - "POST /api/auth/register/ HTTP/1.1" 201 181
+[INFO] 2025-08-28 13:18:55,817 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-08-28 13:18:56,180 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:24:07,910 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-28 13:24:08,255 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-28 13:25:38,571 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-28 13:25:38,948 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-28 13:26:01,046 django.request:246 - Unauthorized: /api/auth/me/
+[WARNING] 2025-08-28 13:26:01,046 django.server:212 - "GET /api/auth/me/ HTTP/1.1" 401 58
+[INFO] 2025-08-28 13:28:37,619 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-08-28 13:29:13,820 django.server:212 - "GET /api/auth/me/ HTTP/1.1" 200 123
+[INFO] 2025-08-29 12:36:47,621 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-29 12:45:03,165 django.request:246 - Unauthorized: /api/auth/all/
+[WARNING] 2025-08-29 12:45:03,166 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 401 172
+[INFO] 2025-08-29 12:45:36,928 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[WARNING] 2025-08-29 12:45:59,672 django.request:246 - Forbidden: /api/auth/all/
+[WARNING] 2025-08-29 12:45:59,673 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 403 63
+[INFO] 2025-08-29 12:47:39,685 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-29 12:48:22,920 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-08-29 12:48:42,409 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 668
+[INFO] 2025-08-29 12:52:23,589 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-29 12:52:23,967 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-29 13:02:54,108 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-29 13:02:54,489 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 06:46:23,203 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 06:54:41,790 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-30 06:54:42,220 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-30 06:56:31,728 django.request:246 - Unauthorized: /api/auth/all/
+[WARNING] 2025-08-30 06:56:31,728 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 401 172
+[INFO] 2025-08-30 06:56:40,400 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-08-30 06:57:22,228 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 668
+[WARNING] 2025-08-30 07:06:04,293 django.request:246 - Unauthorized: /api/auth/me/
+[WARNING] 2025-08-30 07:06:04,293 django.server:212 - "GET /api/auth/me/ HTTP/1.1" 401 172
+[WARNING] 2025-08-30 07:06:42,099 django.request:246 - Unauthorized: /api/auth/change-password/
+[WARNING] 2025-08-30 07:06:42,100 django.server:212 - "POST /api/auth/change-password/ HTTP/1.1" 401 58
+[WARNING] 2025-08-30 07:07:16,387 django.request:246 - Bad Request: /api/auth/change-password/
+[WARNING] 2025-08-30 07:07:16,388 django.server:212 - "POST /api/auth/change-password/ HTTP/1.1" 400 37
+[WARNING] 2025-08-30 07:11:50,058 django.request:246 - Bad Request: /api/auth/change-password/
+[WARNING] 2025-08-30 07:11:50,058 django.server:212 - "POST /api/auth/change-password/ HTTP/1.1" 400 37
+[INFO] 2025-08-30 07:12:13,191 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-08-30 07:14:35,871 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 668
+[INFO] 2025-08-30 07:15:58,481 django.server:212 - "POST /api/auth/change-password/ HTTP/1.1" 200 43
+[WARNING] 2025-08-30 07:17:22,017 django.request:246 - Forbidden: /api/auth/reset-password/
+[WARNING] 2025-08-30 07:17:22,017 django.server:212 - "POST /api/auth/reset-password/ HTTP/1.1" 403 63
+[INFO] 2025-08-30 07:17:40,405 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-08-30 07:17:57,721 django.server:212 - "POST /api/auth/reset-password/ HTTP/1.1" 200 54
+[WARNING] 2025-08-30 07:32:25,835 django.request:246 - Unauthorized: /api/auth/users/cd4039a9-c978-4624-95ae-99f241a1dbda/block/
+[WARNING] 2025-08-30 07:32:25,835 django.server:212 - "PATCH /api/auth/users/cd4039a9-c978-4624-95ae-99f241a1dbda/block/ HTTP/1.1" 401 58
+[INFO] 2025-08-30 07:32:34,963 django.server:212 - "PATCH /api/auth/users/cd4039a9-c978-4624-95ae-99f241a1dbda/block/ HTTP/1.1" 200 26
+[WARNING] 2025-08-30 07:34:20,980 django.request:246 - Unauthorized: /api/auth/login/
+[WARNING] 2025-08-30 07:34:20,980 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 401 63
+[INFO] 2025-08-30 07:38:35,625 django.server:212 - "PATCH /api/auth/users/cd4039a9-c978-4624-95ae-99f241a1dbda/unblock/ HTTP/1.1" 200 28
+[WARNING] 2025-08-30 07:38:45,550 django.request:246 - Unauthorized: /api/auth/login/
+[WARNING] 2025-08-30 07:38:45,550 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 401 63
+[WARNING] 2025-08-30 07:39:11,513 django.request:246 - Unauthorized: /api/auth/login/
+[WARNING] 2025-08-30 07:39:11,514 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 401 63
+[INFO] 2025-08-30 07:39:51,581 django.server:212 - "PATCH /api/auth/users/cd4039a9-c978-4624-95ae-99f241a1dbda/unblock/ HTTP/1.1" 200 28
+[WARNING] 2025-08-30 07:40:02,285 django.request:246 - Unauthorized: /api/auth/login/
+[WARNING] 2025-08-30 07:40:02,286 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 401 63
+[INFO] 2025-08-30 07:40:16,255 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 668
+[INFO] 2025-08-30 07:47:41,196 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-08-30 07:47:41,590 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 07:47:50,598 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 2209
+[INFO] 2025-08-30 07:51:26,889 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-08-30 07:51:27,385 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 07:55:56,612 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-08-30 07:55:56,936 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:00:52,648 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[WARNING] 2025-08-30 08:01:26,360 django.request:246 - Unauthorized: /api/auth/all/
+[WARNING] 2025-08-30 08:01:26,361 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 401 172
+[INFO] 2025-08-30 08:01:39,293 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 2209
+[INFO] 2025-08-30 08:02:09,589 django.server:212 - "PATCH /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-role/ HTTP/1.1" 200 48
+[INFO] 2025-08-30 08:02:16,939 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 2208
+[WARNING] 2025-08-30 08:02:50,842 django.request:246 - Unauthorized: /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/
+[WARNING] 2025-08-30 08:02:50,842 django.server:212 - "PATCH /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/ HTTP/1.1" 401 58
+[WARNING] 2025-08-30 08:02:58,550 django.request:246 - Bad Request: /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/
+[WARNING] 2025-08-30 08:02:58,550 django.server:212 - "PATCH /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/ HTTP/1.1" 400 43
+[WARNING] 2025-08-30 08:03:15,912 django.request:246 - Bad Request: /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/
+[WARNING] 2025-08-30 08:03:15,912 django.server:212 - "PATCH /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/ HTTP/1.1" 400 43
+[INFO] 2025-08-30 08:06:34,665 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 2208
+[INFO] 2025-08-30 08:08:53,268 django.server:212 - "PATCH /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-groups/ HTTP/1.1" 200 40
+[INFO] 2025-08-30 08:09:02,273 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 2211
+[WARNING] 2025-08-30 08:10:23,362 django.request:246 - Bad Request: /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/
+[WARNING] 2025-08-30 08:10:23,363 django.server:212 - "PATCH /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/ HTTP/1.1" 400 43
+[INFO] 2025-08-30 08:24:44,233 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-08-30 08:24:44,629 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:26:00,206 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-30 08:26:00,543 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:26:07,357 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-30 08:26:07,829 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:31:31,662 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-08-30 08:31:32,052 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:34:14,951 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-30 08:34:15,305 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:35:04,710 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-08-30 08:35:05,111 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-08-30 08:35:55,185 django.request:246 - Bad Request: /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/
+[WARNING] 2025-08-30 08:35:55,186 django.server:212 - "PATCH /api/users/7a35608c-5626-4832-9b91-938a846a70c0/assign-permissions/ HTTP/1.1" 400 49
+[INFO] 2025-08-30 08:44:01,387 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-30 08:44:01,733 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:55:47,039 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-30 08:55:47,459 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:56:15,046 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-30 08:56:15,424 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:58:06,472 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-30 08:58:06,824 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 08:59:44,262 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-30 08:59:44,595 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 09:00:43,453 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-30 09:00:43,763 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 09:02:25,300 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-08-30 09:02:25,717 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-08-30 09:06:37,429 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/permissions.py changed, reloading.
+[INFO] 2025-08-30 09:06:37,765 django.utils.autoreload:667 - Watching for file changes with StatReloader

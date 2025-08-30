@@ -1,0 +1,1135 @@
+[ERROR] 2025-08-22 07:42:17,637 django.request:253 - Internal Server Error: /api/orders/44
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/orders/44/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ERROR] 2025-08-22 07:42:17,638 django.server:213 - "PUT /api/orders/44 HTTP/1.1" 500 83497
+[ERROR] 2025-08-22 07:51:13,086 django.request:253 - Internal Server Error: /api/orders/44
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to localhost:8000/api/orders/44/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ERROR] 2025-08-22 07:51:13,098 django.server:213 - "PATCH /api/orders/44 HTTP/1.1" 500 83527
+[ERROR] 2025-08-22 08:20:36,175 django.request:253 - Internal Server Error: /api/orders/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type RelatedManager is not JSON serializable
+[ERROR] 2025-08-22 08:20:36,183 django.server:213 - "GET /api/orders/ HTTP/1.1" 500 154454
+[ERROR] 2025-08-22 08:21:20,080 django.request:253 - Internal Server Error: /api/orders/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/response.py", line 74, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/renderers.py", line 100, in render
+    ret = json.dumps(
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/utils/json.py", line 25, in dumps
+    return json.dumps(*args, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/usr/lib/python3.10/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/utils/encoders.py", line 67, in default
+    return super().default(obj)
+  File "/usr/lib/python3.10/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type RelatedManager is not JSON serializable
+[ERROR] 2025-08-22 08:21:20,082 django.server:213 - "GET /api/orders/ HTTP/1.1" 500 154206
+[ERROR] 2025-08-22 08:28:23,011 django.request:253 - Internal Server Error: /api/orders/44
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 122, in __call__
+    response = self.process_response(request, response)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to localhost:8000/api/orders/44/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ERROR] 2025-08-22 08:28:23,012 django.server:213 - "PATCH /api/orders/44 HTTP/1.1" 500 83527
+[ERROR] 2025-08-22 08:40:03,806 orders:112 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 50, in post
+    if "Z" in order_data["receive_order_at"]
+KeyError: 'receive_order_at'
+[ERROR] 2025-08-22 11:12:39,541 django.request:253 - Internal Server Error: /api/auth/token/refresh/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py", line 44, in post
+    serializer.is_valid(raise_exception=True)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 225, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 447, in run_validation
+    value = self.validate(value)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework_simplejwt/serializers.py", line 141, in validate
+    refresh.outstand()
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework_simplejwt/tokens.py", line 222, in outstand
+    return OutstandingToken.objects.get_or_create(
+AttributeError: type object 'OutstandingToken' has no attribute 'objects'
+[ERROR] 2025-08-22 11:12:39,552 django.server:213 - "POST /api/auth/token/refresh/ HTTP/1.1" 500 128540
+[ERROR] 2025-08-22 11:38:47,264 django.request:253 - Internal Server Error: /api/orders/1/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 262, in patch
+    return self.partial_update(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 164, in update
+    return Response(serializer.data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1717, in to_representation
+    for key, val in value.items()
+AttributeError: 'RelatedManager' object has no attribute 'items'
+[ERROR] 2025-08-22 11:38:47,265 django.server:213 - "PATCH /api/orders/1/ HTTP/1.1" 500 158740
+[ERROR] 2025-08-22 12:55:35,359 orders:165 - Failed to update order 45
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 162, in update
+    self.perform_update(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1021, in update
+    raise_errors_on_nested_writes('update', self, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 842, in raise_errors_on_nested_writes
+    assert not any(
+AssertionError: The `.update()` method does not support writable nested fields by default.
+Write an explicit `.update()` method for serializer `api.serializers.OrderSerializer`, or set `read_only=True` on nested serializer fields.
+[ERROR] 2025-08-22 13:14:07,174 django.request:253 - Internal Server Error: /api/orders/45/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/views/decorators/csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/generics.py", line 262, in patch
+    return self.partial_update(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 82, in partial_update
+    return self.update(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 168, in update
+    return Response(serializer.data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/fields.py", line 1717, in to_representation
+    for key, val in value.items()
+AttributeError: 'Customer' object has no attribute 'items'
+[ERROR] 2025-08-22 13:14:07,175 django.server:213 - "PATCH /api/orders/45/ HTTP/1.1" 500 141896
+[ERROR] 2025-08-22 13:16:48,203 orders:165 - Failed to update order 45
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 162, in update
+    self.perform_update(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/mixins.py", line 78, in perform_update
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 1021, in update
+    raise_errors_on_nested_writes('update', self, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/rest_framework/serializers.py", line 842, in raise_errors_on_nested_writes
+    assert not any(
+AssertionError: The `.update()` method does not support writable nested fields by default.
+Write an explicit `.update()` method for serializer `api.serializers.OrderSerializer`, or set `read_only=True` on nested serializer fields.
+[ERROR] 2025-08-26 08:36:06,660 orders:42 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 22, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1821, in execute_sql
+    for sql, params in self.as_sql():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1745, in as_sql
+    value_rows = [
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1746, in <listcomp>
+    [
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1747, in <listcomp>
+    self.prepare_value(field, self.pre_save_val(field, obj))
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1686, in prepare_value
+    return field.get_db_prep_save(value, connection=self.connection)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 954, in get_db_prep_save
+    return self.get_db_prep_value(value, connection=connection, prepared=False)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1469, in get_db_prep_value
+    value = self.get_prep_value(value)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1464, in get_prep_value
+    return self.to_python(value)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/fields/__init__.py", line 1430, in to_python
+    raise exceptions.ValidationError(
+django.core.exceptions.ValidationError: ['“2025-07-09T21:00:00.000Z” value has an invalid date format. It must be in YYYY-MM-DD format.']
+[ERROR] 2025-08-26 08:37:59,637 orders:34 - PDF generation failed: 'str' object has no attribute 'strftime'
+[ERROR] 2025-08-26 09:21:34,577 django.request:246 - Internal Server Error: /api/company/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: core_companyinfo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: core_companyinfo
+[ERROR] 2025-08-26 09:21:34,578 django.server:212 - "POST /api/company/ HTTP/1.1" 500 223141
+[ERROR] 2025-08-26 09:21:48,906 django.request:246 - Internal Server Error: /api/company/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: no such table: core_companyinfo
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 246, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 991, in create
+    instance = ModelClass._default_manager.create(**validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: no such table: core_companyinfo
+[ERROR] 2025-08-26 09:21:48,907 django.server:212 - "POST /api/company/ HTTP/1.1" 500 223213
+[ERROR] 2025-08-26 09:25:56,573 orders:42 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: order_order.order_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 22, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: order_order.order_code
+[ERROR] 2025-08-26 10:05:45,382 django.request:246 - Internal Server Error: /api/company/2
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PUT, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PUT data. Change your form to point to localhost:8000/api/company/2/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ERROR] 2025-08-26 10:05:45,383 django.server:212 - "PUT /api/company/2 HTTP/1.1" 500 83939
+[ERROR] 2025-08-26 11:43:48,814 orders:42 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.IntegrityError: UNIQUE constraint failed: order_order.order_code
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/views.py", line 22, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.IntegrityError: UNIQUE constraint failed: order_order.order_code
+[ERROR] 2025-08-28 07:39:40,696 orders:46 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 26, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/order/models.py", line 44, in save
+    self.remaining_payment = self.total_price - self.app_front
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+[ERROR] 2025-08-28 07:41:11,158 orders:46 - Error while creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table order_order has no column named status
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 26, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 82, in create
+    order = Order.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/mferej/Downloads/furniture-backend-main/order/models.py", line 45, in save
+    super().save(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table order_order has no column named status
+[ERROR] 2025-08-28 07:44:41,425 django.request:246 - Internal Server Error: /api/materials/mejlis/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 66, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 18, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 49, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 82, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 371, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: material_type
+[ERROR] 2025-08-28 07:44:41,426 django.server:212 - "GET /api/materials/mejlis/list/ HTTP/1.1" 500 143516
+[ERROR] 2025-08-28 07:46:05,992 django.request:246 - Internal Server Error: /api/orders/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 66, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 18, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 49, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 82, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 371, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: material_type
+[ERROR] 2025-08-28 07:46:05,993 django.server:212 - "GET /api/orders/list/ HTTP/1.1" 500 143326
+[ERROR] 2025-08-28 08:04:54,277 django.request:246 - Internal Server Error: /api/orders/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 66, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 18, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 49, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 82, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 371, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: material_type
+[ERROR] 2025-08-28 08:04:54,278 django.server:212 - "GET /api/orders/list/ HTTP/1.1" 500 143326
+[ERROR] 2025-08-28 08:11:29,451 django.request:246 - Internal Server Error: /api/orders/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 38, in list
+    queryset = self.filter_queryset(self.get_queryset())
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 154, in filter_queryset
+    queryset = backend().filter_queryset(self.request, queryset, self)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 66, in filter_queryset
+    filterset = self.get_filterset(request, queryset, view)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 18, in get_filterset
+    filterset_class = self.get_filterset_class(view, queryset)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/rest_framework/backends.py", line 49, in get_filterset_class
+    class AutoFilterSet(self.filterset_base):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 82, in __new__
+    new_class.base_filters = new_class.get_filters()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django_filters/filterset.py", line 371, in get_filters
+    raise TypeError(
+TypeError: 'Meta.fields' must not contain non-model field names: material_type
+[ERROR] 2025-08-28 08:11:29,452 django.server:212 - "GET /api/orders/list/ HTTP/1.1" 500 143326
+[ERROR] 2025-08-28 08:20:21,607 django.request:246 - Internal Server Error: /api/orders/mejlis/getbyid/55/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view OrderDetailView to be called with a URL keyword argument named "id". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+[ERROR] 2025-08-28 08:20:21,608 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 500 116307
+[ERROR] 2025-08-28 08:20:31,807 django.request:246 - Internal Server Error: /api/orders/mejlis/getbyid/55/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view OrderDetailView to be called with a URL keyword argument named "id". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+[ERROR] 2025-08-28 08:20:31,807 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 500 116135
+[ERROR] 2025-08-28 08:21:03,129 django.request:246 - Internal Server Error: /api/orders/mejlis/getbyid/55/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 54, in retrieve
+    instance = self.get_object()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 92, in get_object
+    assert lookup_url_kwarg in self.kwargs, (
+AssertionError: Expected view OrderDetailView to be called with a URL keyword argument named "id". Fix your URL conf, or set the `.lookup_field` attribute on the view correctly.
+[ERROR] 2025-08-28 08:21:03,130 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 500 116135
+[ERROR] 2025-08-28 08:24:19,638 django.request:246 - Internal Server Error: /api/orders/mejlis/getbyid/55/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 212, in get
+    return self.retrieve(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 56, in retrieve
+    return Response(serializer.data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 573, in data
+    ret = super().data
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `material_type` is not valid for model `Order` in `api.mejlis.serializers.OrderSerializer`.
+[ERROR] 2025-08-28 08:24:19,640 django.server:212 - "GET /api/orders/mejlis/getbyid/55/ HTTP/1.1" 500 159338
+[ERROR] 2025-08-28 08:46:02,113 django.request:246 - Internal Server Error: /api/orders/mejlis/55/update/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: put() missing 1 required positional argument: 'id'
+[ERROR] 2025-08-28 08:46:02,114 django.server:212 - "PUT /api/orders/mejlis/55/update/ HTTP/1.1" 500 102132
+[ERROR] 2025-08-28 09:03:54,352 orders:101 - Error while updating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 85, in put
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 205, in save
+    self.instance = self.update(self.instance, validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 156, in update
+    instance.save()
+  File "/home/mferej/Downloads/furniture-backend-main/order/models.py", line 44, in save
+    self.remaining_payment = self.total_price - self.app_front
+TypeError: unsupported operand type(s) for -: 'str' and 'str'
+[ERROR] 2025-08-28 11:35:31,077 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 25, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 126, in create
+    material = MejlisMaterial.objects.create(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 656, in create
+    obj = self.model(**kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 567, in __init__
+    raise TypeError(
+TypeError: MejlisMaterial() got unexpected keyword arguments: 'material_type'
+[ERROR] 2025-08-28 11:39:27,118 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 25, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 136, in create
+    side_name=seg['side_name'],
+TypeError: string indices must be integers
+[ERROR] 2025-08-28 11:42:53,847 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 25, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 136, in create
+    side_name=seg['side_name'],
+TypeError: string indices must be integers
+[ERROR] 2025-08-28 11:44:44,653 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 25, in post
+    order = serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/serializers.py", line 136, in create
+    side_name=seg['side_name'],
+TypeError: string indices must be integers
+[ERROR] 2025-08-28 11:47:41,030 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 26, in post
+    pdf_url = generate_order_pdf(order)
+  File "/home/mferej/Downloads/furniture-backend-main/order/utils.py", line 176, in generate_order_pdf
+    ["Type", material.material_type],
+AttributeError: 'MejlisMaterial' object has no attribute 'material_type'
+[ERROR] 2025-08-28 11:55:42,978 orders:33 - Error creating order
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/api/mejlis/views.py", line 26, in post
+    pdf_url = generate_order_pdf(order)
+  File "/home/mferej/Downloads/furniture-backend-main/order/utils.py", line 176, in generate_order_pdf
+    ["Type", material.material_type],
+AttributeError: 'MejlisMaterial' object has no attribute 'material_type'
+[ERROR] 2025-08-28 12:06:16,109 django.request:246 - Internal Server Error: /api/orders/mejlis/list/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 203, in get
+    return self.list(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 43, in list
+    return self.get_paginated_response(serializer.data)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 797, in data
+    ret = super().data
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 251, in data
+    self._data = self.to_representation(self.instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 540, in to_representation
+    ret[field.field_name] = field.to_representation(attribute)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 715, in to_representation
+    return [
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 716, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 525, in to_representation
+    for field in fields:
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 386, in _readable_fields
+    for field in self.fields.values():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 374, in fields
+    for key, value in self.get_fields().items():
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1105, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1251, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 1369, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `material_type` is not valid for model `MejlisMaterial` in `api.mejlis.serializers.MejlisMaterialSerializer`.
+[ERROR] 2025-08-28 12:06:16,110 django.server:212 - "GET /api/orders/mejlis/list/ HTTP/1.1" 500 181340
+[ERROR] 2025-08-28 13:11:41,762 django.request:246 - Internal Server Error: /api/auth/register/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table users_customuser has no column named role
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/users/serializers.py", line 20, in create
+    return User.objects.create_user(**validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/users/models.py", line 21, in create_user
+    user.save(using=self._db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table users_customuser has no column named role
+[ERROR] 2025-08-28 13:11:41,764 django.server:212 - "POST /api/auth/register/ HTTP/1.1" 500 221140
+[ERROR] 2025-08-28 13:12:59,066 django.request:246 - Internal Server Error: /api/auth/register/
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+sqlite3.OperationalError: table users_customuser has no column named role
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/views/generic/base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/views.py", line 512, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/generics.py", line 194, in post
+    return self.create(request, *args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/mixins.py", line 24, in perform_create
+    serializer.save()
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/rest_framework/serializers.py", line 210, in save
+    self.instance = self.create(validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/users/serializers.py", line 20, in create
+    return User.objects.create_user(**validated_data)
+  File "/home/mferej/Downloads/furniture-backend-main/users/models.py", line 21, in create_user
+    user.save(using=self._db)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/contrib/auth/base_user.py", line 76, in save
+    super().save(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/mferej/Downloads/furniture-backend-main/venv_django/lib/python3.9/site-packages/django/db/backends/sqlite3/base.py", line 328, in execute
+    return super().execute(query, params)
+django.db.utils.OperationalError: table users_customuser has no column named role
+[ERROR] 2025-08-28 13:12:59,068 django.server:212 - "POST /api/auth/register/ HTTP/1.1" 500 221140
