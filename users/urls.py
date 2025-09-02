@@ -1,6 +1,8 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from rest_framework_simplejwt.views import TokenRefreshView
+
+from users.RoleViews import AssignRoleToUserView, RoleViewSet
 from .views import (
     AssignGroupView, AssignPermissionView, AssignRoleView, ChangePasswordView, MeView, RegisterView, CustomTokenObtainPairView, ResetPasswordView, UserProfileView,
     UpdateProfileView, logout_view, UserViewSet, UserListView
@@ -8,6 +10,7 @@ from .views import (
 
 router = DefaultRouter()
 router.register(r'users', UserViewSet, basename='user')
+router.register(r'roles', RoleViewSet, basename='role')  # <-- Add this line
 
 urlpatterns = [
     path('register/', RegisterView.as_view(), name='register'),
@@ -26,5 +29,7 @@ urlpatterns = [
 
 
 ]
-
+urlpatterns += [
+    path("users/<str:pk>/role/", AssignRoleToUserView.as_view(), name="assign-remove-role"),
+]
 urlpatterns += router.urls

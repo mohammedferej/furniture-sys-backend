@@ -17,3 +17,5 @@ reportlab==4.4.3
 sqlparse==0.5.3
 typing_extensions==4.14.1
 whitenoise==6.9.0
+cairosvg==2.7.1
+svgwrite==1.4.3

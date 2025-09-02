@@ -1,11 +1,25 @@
 from rest_framework import serializers
 from django.contrib.auth import get_user_model
-from django.contrib.auth.models import Permission
+from django.contrib.auth.models import Permission, Group
+from .models import Role
 
 User = get_user_model()
 
+class RoleSerializer(serializers.ModelSerializer):
+    permissions = serializers.SlugRelatedField(
+        many=True, 
+        read_only=True, 
+        slug_field='codename'
+    )
+
+    class Meta:
+        model = Role
+        fields = ['id', 'name', 'permissions']
+
+
 class UserRegistrationSerializer(serializers.ModelSerializer):
     password2 = serializers.CharField(write_only=True)
+    role = serializers.PrimaryKeyRelatedField(queryset=Role.objects.all(), required=False, allow_null=True)
 
     class Meta:
         model = User
@@ -22,33 +36,42 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
 
 
 class UserProfileSerializer(serializers.ModelSerializer):
+    role = RoleSerializer(read_only=True)
+
     class Meta:
         model = User
         fields = ['id', 'username', 'first_name', 'last_name', 'role']
 
 
 class UserUpdateSerializer(serializers.ModelSerializer):
+    role = serializers.PrimaryKeyRelatedField(queryset=Role.objects.all(), required=False, allow_null=True)
+
     class Meta:
         model = User
         fields = ['first_name', 'last_name', 'role']
 
 
 class UserListSerializer(serializers.ModelSerializer):
+    role = RoleSerializer(read_only=True)  # nested role details
     class Meta:
         model = User
-        fields ="__all__"
-        #['id', 'username', 'first_name', 'last_name', 'role',]
+        fields = "__all__"
+
 
 class AssignRoleSerializer(serializers.ModelSerializer):
+    role = serializers.PrimaryKeyRelatedField(queryset=Role.objects.all())
+
     class Meta:
         model = User
         fields = ["id", "username", "role"]
+
 
 class AssignPermissionSerializer(serializers.Serializer):
     permissions = serializers.ListField(
         child=serializers.CharField(),  # expects list of codename strings
         required=True
     )
+
 
 class AssignGroupSerializer(serializers.Serializer):
     groups = serializers.ListField(
