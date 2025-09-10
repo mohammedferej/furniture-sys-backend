@@ -5,16 +5,6 @@ from .models import Role
 
 User = get_user_model()
 
-class RoleSerializer(serializers.ModelSerializer):
-    permissions = serializers.SlugRelatedField(
-        many=True, 
-        read_only=True, 
-        slug_field='codename'
-    )
-
-    class Meta:
-        model = Role
-        fields = ['id', 'name', 'permissions']
 
 
 class UserRegistrationSerializer(serializers.ModelSerializer):
@@ -36,7 +26,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
 
 
 class UserProfileSerializer(serializers.ModelSerializer):
-    role = RoleSerializer(read_only=True)
+   
 
     class Meta:
         model = User
@@ -52,7 +42,7 @@ class UserUpdateSerializer(serializers.ModelSerializer):
 
 
 class UserListSerializer(serializers.ModelSerializer):
-    role = RoleSerializer(read_only=True)  # nested role details
+
     class Meta:
         model = User
         fields = "__all__"

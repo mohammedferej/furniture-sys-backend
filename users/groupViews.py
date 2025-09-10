@@ -4,7 +4,9 @@ from rest_framework.response import Response
 from rest_framework.permissions import IsAdminUser
 from django.contrib.auth.models import Group
 from django.contrib.auth import get_user_model
-from .serializers import GroupSerializer, AssignGroupSerializer
+
+from users.groupserializers import GroupSerializer, PermissionSerializer
+from .serializers import  AssignGroupSerializer
 
 User = get_user_model()
 
@@ -72,3 +74,16 @@ class RemoveGroupFromUserView(APIView):
 
         user.groups.remove(group)
         return Response({"message": f"Group '{group.name}' removed from user '{user.username}'"})
+
+from rest_framework import viewsets
+from django.contrib.auth.models import Permission
+
+from rest_framework.permissions import IsAdminUser
+
+class PermissionViewSet(viewsets.ReadOnlyModelViewSet):
+    """
+    Read-only endpoint to list all permissions
+    """
+    queryset = Permission.objects.all()
+    serializer_class = PermissionSerializer
+    permission_classes = [IsAdminUser]  # Only admin can see permissions

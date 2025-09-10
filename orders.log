@@ -1864,3 +1864,124 @@ django.db.utils.OperationalError: no such column: users_customuser.role_id
 [WARNING] 2025-09-01 08:43:33,386 django.server:212 - "GET /api/roles/ HTTP/1.1" 401 107
 [INFO] 2025-09-01 08:43:52,630 django.server:212 - "GET /api/roles/ HTTP/1.1" 200 129
 [INFO] 2025-09-01 12:01:22,953 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 06:07:02,046 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-09-10 06:07:28,784 django.request:246 - Unauthorized: /api/auth/login/
+[WARNING] 2025-09-10 06:07:28,784 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 401 63
+[INFO] 2025-09-10 08:30:22,269 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-09-10 08:30:43,524 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 925
+[INFO] 2025-09-10 08:34:09,462 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-10 08:34:12,012 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:35:41,214 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-10 08:35:41,569 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:36:17,064 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-10 08:36:17,451 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:36:27,344 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 886
+[WARNING] 2025-09-10 08:37:38,761 django.request:246 - Not Found: /api/groups
+[WARNING] 2025-09-10 08:37:38,762 django.server:212 - "GET /api/groups HTTP/1.1" 404 9187
+[INFO] 2025-09-10 08:39:44,838 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-10 08:39:45,216 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:41:53,108 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/groupViews.py changed, reloading.
+[INFO] 2025-09-10 08:41:53,494 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:43:16,233 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:44:37,754 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/groupserializers.py changed, reloading.
+[INFO] 2025-09-10 08:44:38,104 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:45:32,156 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/groupserializers.py changed, reloading.
+[INFO] 2025-09-10 08:45:32,565 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:45:43,276 django.server:212 - "GET /api/groups HTTP/1.1" 301 0
+[INFO] 2025-09-10 08:45:43,288 django.server:212 - "GET /api/groups/ HTTP/1.1" 200 52
+[WARNING] 2025-09-10 08:47:37,426 django.request:246 - Unauthorized: /api/groups/
+[WARNING] 2025-09-10 08:47:37,427 django.server:212 - "POST /api/groups/ HTTP/1.1" 401 172
+[WARNING] 2025-09-10 08:48:29,288 django.request:246 - Bad Request: /api/groups/
+[WARNING] 2025-09-10 08:48:29,288 django.server:212 - "POST /api/groups/ HTTP/1.1" 400 65
+[WARNING] 2025-09-10 08:48:48,654 django.request:246 - Not Found: /api/permissions/
+[WARNING] 2025-09-10 08:48:48,654 django.server:212 - "GET /api/permissions/ HTTP/1.1" 404 10027
+[WARNING] 2025-09-10 08:49:13,106 django.request:246 - Not Found: /
+[WARNING] 2025-09-10 08:49:13,106 django.server:212 - "GET / HTTP/1.1" 404 2604
+[WARNING] 2025-09-10 08:49:13,267 django.request:246 - Not Found: /favicon.ico
+[WARNING] 2025-09-10 08:49:13,268 django.server:212 - "GET /favicon.ico HTTP/1.1" 404 2655
+[INFO] 2025-09-10 08:49:18,322 django.server:212 - "GET /admin/ HTTP/1.1" 302 0
+[INFO] 2025-09-10 08:49:18,555 django.server:212 - "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+[INFO] 2025-09-10 08:49:18,742 django.server:212 - "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2929
+[INFO] 2025-09-10 08:49:18,743 django.server:212 - "GET /static/admin/css/login.css HTTP/1.1" 200 958
+[INFO] 2025-09-10 08:49:18,744 django.server:212 - "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2694
+[INFO] 2025-09-10 08:49:18,744 django.server:212 - "GET /static/admin/css/base.css HTTP/1.1" 200 21310
+[INFO] 2025-09-10 08:49:18,746 django.server:212 - "GET /static/admin/css/responsive.css HTTP/1.1" 200 18559
+[INFO] 2025-09-10 08:49:18,764 django.server:212 - "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+[INFO] 2025-09-10 08:49:18,766 django.server:212 - "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+[WARNING] 2025-09-10 08:49:18,933 django.request:246 - Not Found: /favicon.ico
+[INFO] 2025-09-10 08:49:21,326 django.server:212 - "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[INFO] 2025-09-10 08:49:21,390 django.server:212 - "GET /admin/ HTTP/1.1" 200 5152
+[INFO] 2025-09-10 08:49:21,492 django.server:212 - "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+[INFO] 2025-09-10 08:49:21,524 django.server:212 - "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[INFO] 2025-09-10 08:49:21,575 django.server:212 - "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[INFO] 2025-09-10 08:49:23,941 django.server:212 - "GET /admin/auth/group/add/ HTTP/1.1" 200 10754
+[INFO] 2025-09-10 08:49:23,993 django.server:212 - "GET /static/admin/css/forms.css HTTP/1.1" 200 9090
+[INFO] 2025-09-10 08:49:23,993 django.server:212 - "GET /static/admin/js/SelectBox.js HTTP/1.1" 200 4530
+[INFO] 2025-09-10 08:49:24,006 django.server:212 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2025-09-10 08:49:24,017 django.server:212 - "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2025-09-10 08:49:24,017 django.server:212 - "GET /static/admin/js/core.js HTTP/1.1" 200 5682
+[INFO] 2025-09-10 08:49:24,018 django.server:212 - "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 8943
+[INFO] 2025-09-10 08:49:24,030 django.server:212 - "GET /static/admin/js/actions.js HTTP/1.1" 200 7872
+[INFO] 2025-09-10 08:49:24,030 django.server:212 - "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+[INFO] 2025-09-10 08:49:24,031 django.server:212 - "GET /static/admin/js/SelectFilter2.js HTTP/1.1" 200 15292
+[INFO] 2025-09-10 08:49:24,031 django.server:212 - "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2025-09-10 08:49:24,031 django.server:212 - "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+[INFO] 2025-09-10 08:49:24,081 django.server:212 - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2025-09-10 08:49:24,081 django.server:212 - "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[INFO] 2025-09-10 08:49:24,081 django.server:212 - "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 232381
+[INFO] 2025-09-10 08:49:24,090 django.server:212 - "GET /static/admin/css/widgets.css HTTP/1.1" 200 11921
+[WARNING] 2025-09-10 08:49:24,231 django.request:246 - Not Found: /favicon.ico
+[INFO] 2025-09-10 08:49:24,281 django.server:212 - "GET /static/admin/img/icon-unknown.svg HTTP/1.1" 200 655
+[INFO] 2025-09-10 08:49:24,282 django.server:212 - "GET /static/admin/img/icon-unknown-alt.svg HTTP/1.1" 200 655
+[INFO] 2025-09-10 08:49:24,282 django.server:212 - "GET /static/admin/img/selector-icons.svg HTTP/1.1" 200 3291
+[INFO] 2025-09-10 08:49:24,283 django.server:212 - "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+[INFO] 2025-09-10 08:49:46,818 django.server:212 - "POST /admin/auth/group/add/ HTTP/1.1" 200 10915
+[INFO] 2025-09-10 08:49:46,867 django.server:212 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2025-09-10 08:49:53,292 django.server:212 - "POST /admin/auth/group/add/ HTTP/1.1" 302 0
+[INFO] 2025-09-10 08:49:53,430 django.server:212 - "GET /admin/auth/group/ HTTP/1.1" 200 8306
+[INFO] 2025-09-10 08:49:53,578 django.server:212 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2025-09-10 08:49:53,591 django.server:212 - "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+[INFO] 2025-09-10 08:49:53,605 django.server:212 - "GET /static/admin/css/changelists.css HTTP/1.1" 200 6566
+[INFO] 2025-09-10 08:49:53,660 django.server:212 - "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+[INFO] 2025-09-10 08:49:53,660 django.server:212 - "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[WARNING] 2025-09-10 08:49:53,708 django.request:246 - Not Found: /favicon.ico
+[INFO] 2025-09-10 08:49:57,829 django.server:212 - "GET /admin/auth/group/1/change/ HTTP/1.1" 200 10984
+[INFO] 2025-09-10 08:49:57,873 django.server:212 - "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[INFO] 2025-09-10 08:50:31,174 django.server:212 - "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+[INFO] 2025-09-10 08:50:31,177 django.server:212 - "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+[INFO] 2025-09-10 08:50:31,188 django.server:212 - "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+[INFO] 2025-09-10 08:53:49,678 django.server:212 - "GET /api/groups HTTP/1.1" 301 0
+[INFO] 2025-09-10 08:53:49,686 django.server:212 - "GET /api/groups/ HTTP/1.1" 200 124
+[WARNING] 2025-09-10 08:54:51,312 django.request:246 - Not Found: /api/permissions/
+[WARNING] 2025-09-10 08:54:51,312 django.server:212 - "GET /api/permissions/ HTTP/1.1" 404 10027
+[INFO] 2025-09-10 08:58:40,722 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/groupViews.py changed, reloading.
+[INFO] 2025-09-10 08:58:41,181 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:58:54,160 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/groupserializers.py changed, reloading.
+[INFO] 2025-09-10 08:58:54,588 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:59:12,719 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/groupViews.py changed, reloading.
+[INFO] 2025-09-10 08:59:13,161 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:59:19,882 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/groupserializers.py changed, reloading.
+[INFO] 2025-09-10 08:59:20,291 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:59:29,280 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-10 08:59:29,683 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 08:59:34,307 django.server:212 - "GET /api/permissions/ HTTP/1.1" 200 900
+[INFO] 2025-09-10 09:13:16,099 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/groupserializers.py changed, reloading.
+[INFO] 2025-09-10 09:13:16,516 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 09:13:46,395 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-10 09:13:46,763 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 09:17:12,289 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-10 09:17:12,676 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 09:17:34,985 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-10 09:17:35,406 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 09:17:54,689 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-10 09:17:55,041 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-10 09:18:33,830 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-10 09:18:34,203 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[WARNING] 2025-09-10 09:20:22,368 django.request:246 - Bad Request: /api/groups/
+[WARNING] 2025-09-10 09:20:22,368 django.server:212 - "POST /api/groups/ HTTP/1.1" 400 65
+[INFO] 2025-09-10 09:20:30,220 django.server:212 - "GET /api/permissions/ HTTP/1.1" 200 900
+[INFO] 2025-09-10 09:20:38,135 django.server:212 - "GET /api/groups HTTP/1.1" 301 0
+[INFO] 2025-09-10 09:20:38,145 django.server:212 - "GET /api/groups/ HTTP/1.1" 200 124
+[INFO] 2025-09-10 09:51:36,862 django.server:212 - "GET /api/groups HTTP/1.1" 301 0
+[WARNING] 2025-09-10 09:51:36,864 django.request:246 - Unauthorized: /api/groups/
+[WARNING] 2025-09-10 09:51:36,865 django.server:212 - "GET /api/groups/ HTTP/1.1" 401 172

@@ -3,39 +3,36 @@ from rest_framework import generics, viewsets, status
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.decorators import action, api_view
-from rest_framework.permissions import AllowAny, IsAuthenticated
+from rest_framework.permissions import AllowAny, IsAuthenticated, IsAdminUser
 from rest_framework_simplejwt.views import TokenObtainPairView
 from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.auth import get_user_model
-from django.contrib.auth.models import Group,Permission
+from django.contrib.auth.models import Group, Permission
 
 from users.models import CustomUser
-
-
 from .serializers import (
-    AssignGroupSerializer,
-    AssignPermissionSerializer,
-    AssignPermissionsSerializer,
-    AssignRoleSerializer,
+  
     UserRegistrationSerializer,
     UserProfileSerializer,
     UserUpdateSerializer,
-    UserListSerializer
+    UserListSerializer,
+    
 )
-from .permissions import IsAdmin, IsAdmin
+
+from .permissions import IsAdmin
 
 User = get_user_model()
 
-# JWT login
+# ----------------- JWT -----------------
 class CustomTokenObtainPairView(TokenObtainPairView):
     permission_classes = [AllowAny]
 
-# Register user
+# ----------------- Register -----------------
 class RegisterView(generics.CreateAPIView):
     serializer_class = UserRegistrationSerializer
     permission_classes = [AllowAny]
 
-# User profile
+# ----------------- User profile -----------------
 class UserProfileView(generics.RetrieveAPIView):
     serializer_class = UserProfileSerializer
     permission_classes = [IsAuthenticated]
@@ -43,7 +40,6 @@ class UserProfileView(generics.RetrieveAPIView):
     def get_object(self):
         return self.request.user
 
-# Update logged-in user's profile
 class UpdateProfileView(generics.UpdateAPIView):
     serializer_class = UserUpdateSerializer
     permission_classes = [IsAuthenticated]
@@ -51,7 +47,7 @@ class UpdateProfileView(generics.UpdateAPIView):
     def get_object(self):
         return self.request.user
 
-# Logout
+# ----------------- Logout -----------------
 @api_view(['POST'])
 def logout_view(request):
     try:
@@ -62,13 +58,13 @@ def logout_view(request):
     except Exception:
         return Response({'error': 'Invalid token.'}, status=status.HTTP_400_BAD_REQUEST)
 
-# User list for admin
+# ----------------- User list -----------------
 class UserListView(generics.ListAPIView):
     queryset = User.objects.all()
     serializer_class = UserListSerializer
     permission_classes = [IsAdmin]
 
-# Change password for logged-in users
+# ----------------- Password -----------------
 class ChangePasswordView(APIView):
     permission_classes = [IsAuthenticated]
 
@@ -87,7 +83,6 @@ class ChangePasswordView(APIView):
         user.save()
         return Response({"message": "Password updated successfully"}, status=status.HTTP_200_OK)
 
-# Reset password by admin
 class ResetPasswordView(APIView):
     permission_classes = [IsAdmin]
 
@@ -106,7 +101,7 @@ class ResetPasswordView(APIView):
         except User.DoesNotExist:
             return Response({"error": "User not found"}, status=status.HTTP_404_NOT_FOUND)
 
-# Full CRUD + block/unblock for users
+# ----------------- User CRUD -----------------
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserListSerializer
@@ -120,41 +115,41 @@ class UserViewSet(viewsets.ModelViewSet):
     @action(detail=True, methods=['patch'], permission_classes=[IsAdmin])
     def block(self, request, pk=None):
         user = self.get_object()
-        user.blocked = True
+        user.is_active = False
         user.save()
         return Response({"message": "User blocked"}, status=status.HTTP_200_OK)
 
     @action(detail=True, methods=['patch'], permission_classes=[IsAdmin])
     def unblock(self, request, pk=None):
         user = self.get_object()
-        user.blocked = False
+        user.is_active = True
         user.save()
         return Response({"message": "User unblocked"}, status=status.HTTP_200_OK)
-    action(detail=True, methods=["patch"], url_path="assign-permissions")
+
+    @action(detail=True, methods=["patch"], url_path="assign-permissions")
     def assign_permissions(self, request, pk=None):
-        user = get_object_or_404(CustomUser, pk=pk)
+        user = get_object_or_404(User, pk=pk)
         serializer = AssignPermissionsSerializer(data=request.data)
-        if serializer.is_valid():
-            permissions = serializer.validated_data["permissions"]
-            for codename in permissions:
-                perm = Permission.objects.get(codename=codename)
-                user.user_permissions.add(perm)
-            return Response({"message": "Permissions assigned successfully"})
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        serializer.is_valid(raise_exception=True)
+        permissions = serializer.validated_data["permissions"]
+        user.user_permissions.clear()
+        for codename in permissions:
+            perm = Permission.objects.get(codename=codename)
+            user.user_permissions.add(perm)
+        return Response({"message": "Permissions assigned successfully"})
 
     @action(detail=True, methods=["patch"], url_path="remove-permissions")
     def remove_permissions(self, request, pk=None):
-        user = get_object_or_404(CustomUser, pk=pk)
+        user = get_object_or_404(User, pk=pk)
         serializer = AssignPermissionsSerializer(data=request.data)
-        if serializer.is_valid():
-            permissions = serializer.validated_data["permissions"]
-            for codename in permissions:
-                perm = Permission.objects.get(codename=codename)
-                user.user_permissions.remove(perm)
-            return Response({"message": "Permissions removed successfully"})
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+        serializer.is_valid(raise_exception=True)
+        permissions = serializer.validated_data["permissions"]
+        for codename in permissions:
+            perm = Permission.objects.get(codename=codename)
+            user.user_permissions.remove(perm)
+        return Response({"message": "Permissions removed successfully"})
 
-# "Me" endpoint for logged-in user
+# ----------------- Me -----------------
 class MeView(APIView):
     permission_classes = [IsAuthenticated]
 
@@ -162,51 +157,74 @@ class MeView(APIView):
         serializer = UserProfileSerializer(request.user)
         return Response(serializer.data)
 
-class AssignRoleView(generics.UpdateAPIView):
-    queryset = CustomUser.objects.all()
-    serializer_class = AssignRoleSerializer
-    permission_classes = [IsAuthenticated, IsAdmin]
+# ----------------- Group endpoints -----------------
+class AssignGroupToUserView(APIView):
+    permission_classes = [IsAdminUser]
 
-    def patch(self, request, *args, **kwargs):
-        user = self.get_object()
-        role = request.data.get("role")
-        if role not in dict(user._meta.get_field("role").choices):
-            return Response({"error": "Invalid role"}, status=status.HTTP_400_BAD_REQUEST)
-        user.role = role
-        user.save()
-        return Response({"message": f"Role '{role}' assigned to {user.username}"})
-    
+    def patch(self, request, pk):
+        user = get_object_or_404(User, pk=pk)
+        serializer = AssignGroupSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        groups = serializer.validated_data['groups']
 
-class AssignPermissionView(generics.UpdateAPIView):
-    queryset = CustomUser.objects.all()
-    serializer_class = AssignPermissionSerializer
-    permission_classes = [IsAuthenticated, IsAdmin]
-
-    def patch(self, request, *args, **kwargs):
-        user = self.get_object()
-        permissions = request.data.get("permissions", [])
-        user.user_permissions.clear()
-        for perm_codename in permissions:
-            try:
-                perm = Permission.objects.get(codename=perm_codename)
-                user.user_permissions.add(perm)
-            except Permission.DoesNotExist:
-                return Response({"error": f"Permission '{perm_codename}' not found"}, status=400)
-        return Response({"message": f"Permissions updated for {user.username}"})
-
-
-class AssignGroupView(generics.UpdateAPIView):
-    queryset = CustomUser.objects.all()
-    serializer_class = AssignGroupSerializer
-    permission_classes = [IsAuthenticated, IsAdmin]
-
-    def patch(self, request, *args, **kwargs):
-        user = self.get_object()
-        groups = request.data.get("groups", [])
         user.groups.clear()
-        for group_name in groups:
-            group, created = Group.objects.get_or_create(name=group_name)
+        for name in groups:
+            group, _ = Group.objects.get_or_create(name=name)
             user.groups.add(group)
-        return Response({"message": f"Groups updated for {user.username}"})
 
-    
+        return Response({"detail": f"Groups assigned to user {user.username}"})
+
+class RemoveGroupFromUserView(APIView):
+    permission_classes = [IsAdminUser]
+
+    def patch(self, request, pk):
+        user = get_object_or_404(User, pk=pk)
+        serializer = AssignGroupSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        groups = serializer.validated_data['groups']
+
+        for name in groups:
+            try:
+                group = Group.objects.get(name=name)
+                user.groups.remove(group)
+            except Group.DoesNotExist:
+                continue
+
+        return Response({"detail": f"Groups removed from user {user.username}"})
+
+class AssignPermissionToGroupView(APIView):
+    permission_classes = [IsAdminUser]
+
+    def patch(self, request, group_name):
+        group = get_object_or_404(Group, name=group_name)
+        serializer = AssignGroupPermissionSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        permissions = serializer.validated_data['permissions']
+
+        group.permissions.clear()
+        for codename in permissions:
+            try:
+                perm = Permission.objects.get(codename=codename)
+                group.permissions.add(perm)
+            except Permission.DoesNotExist:
+                continue
+
+        return Response({"detail": f"Permissions assigned to group {group.name}"})
+
+class RemovePermissionFromGroupView(APIView):
+    permission_classes = [IsAdminUser]
+
+    def patch(self, request, group_name):
+        group = get_object_or_404(Group, name=group_name)
+        serializer = AssignGroupPermissionSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        permissions = serializer.validated_data['permissions']
+
+        for codename in permissions:
+            try:
+                perm = Permission.objects.get(codename=codename)
+                group.permissions.remove(perm)
+            except Permission.DoesNotExist:
+                continue
+
+        return Response({"detail": f"Permissions removed from group {group.name}"})
