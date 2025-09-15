@@ -1,4 +1,6 @@
-#!/home/mferej/Downloads/furniture-backend-main/venv/bin/python3
+#!/bin/sh
+'''exec' "/media/mferej/New Volume2/djangu/furniture-backend-main/venv/bin/python3" "$0" "$@"
+' '''
 # -*- coding: utf-8 -*-
 import re
 import sys

@@ -1279,3 +1279,15 @@ Traceback (most recent call last):
     return super().execute(query, params)
 django.db.utils.OperationalError: no such column: users_customuser.role_id
 [ERROR] 2025-09-01 06:46:56,948 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 500 216208
+[ERROR] 2025-09-13 06:14:53,074 django.request:246 - Internal Server Error: /api/auth/login
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ERROR] 2025-09-13 06:14:53,077 django.server:212 - "POST /api/auth/login HTTP/1.1" 500 82618

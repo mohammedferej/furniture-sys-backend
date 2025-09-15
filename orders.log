@@ -1985,3 +1985,187 @@ django.db.utils.OperationalError: no such column: users_customuser.role_id
 [INFO] 2025-09-10 09:51:36,862 django.server:212 - "GET /api/groups HTTP/1.1" 301 0
 [WARNING] 2025-09-10 09:51:36,864 django.request:246 - Unauthorized: /api/groups/
 [WARNING] 2025-09-10 09:51:36,865 django.server:212 - "GET /api/groups/ HTTP/1.1" 401 172
+[INFO] 2025-09-13 06:10:40,841 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-13 06:13:14,858 django.utils.autoreload:265 - /home/mferej/Downloads/furniture-backend-main/users/groupViews.py changed, reloading.
+[INFO] 2025-09-13 06:13:15,253 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[ERROR] 2025-09-13 06:14:53,074 django.request:246 - Internal Server Error: /api/auth/login
+Traceback (most recent call last):
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/utils/deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+  File "/home/mferej/Downloads/furniture-backend-main/venv/lib/python3.10/site-packages/django/middleware/common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to localhost:8000/api/auth/login/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+[ERROR] 2025-09-13 06:14:53,077 django.server:212 - "POST /api/auth/login HTTP/1.1" 500 82618
+[INFO] 2025-09-13 06:15:14,459 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-09-15 06:12:44,407 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 06:15:43,468 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 06:16:42,134 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 06:17:21,088 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 06:22:11,609 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 08:16:45,028 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 08:47:54,826 django.server:212 - "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-09-15 08:47:55,503 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-09-15 10:33:38,895 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/core/settings.py changed, reloading.
+[INFO] 2025-09-15 10:33:39,654 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:33:46,998 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/core/settings.py changed, reloading.
+[INFO] 2025-09-15 10:33:47,529 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:34:31,065 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/core/settings.py changed, reloading.
+[INFO] 2025-09-15 10:34:31,570 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:34:38,827 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/core/settings.py changed, reloading.
+[INFO] 2025-09-15 10:34:39,413 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:48:11,007 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-09-15 10:48:12,287 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:48:19,697 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-09-15 10:48:20,328 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:50:39,446 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 10:50:39,995 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:50:45,415 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 10:50:46,416 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:55:35,196 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 10:55:35,780 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:55:43,019 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 10:55:43,507 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:56:23,380 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 10:56:23,910 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:56:31,168 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 10:56:31,762 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:57:40,202 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-09-15 10:57:40,714 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 10:57:48,127 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/models.py changed, reloading.
+[INFO] 2025-09-15 10:57:48,706 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:02:43,536 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:03:38,694 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/company/models.py changed, reloading.
+[INFO] 2025-09-15 11:03:39,331 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:03:48,022 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/company/models.py changed, reloading.
+[INFO] 2025-09-15 11:03:48,571 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:04:58,432 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-09-15 11:05:50,372 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-09-15 11:18:41,701 django.server:212 - "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-09-15 11:26:09,258 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/core/settings.py changed, reloading.
+[INFO] 2025-09-15 11:26:10,002 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:26:17,437 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/core/settings.py changed, reloading.
+[INFO] 2025-09-15 11:26:18,149 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:31:10,724 django.server:212 - "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-09-15 11:31:11,093 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[WARNING] 2025-09-15 11:31:20,638 django.request:246 - Unauthorized: /api/auth/profile/
+[WARNING] 2025-09-15 11:31:20,639 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 401 58
+[INFO] 2025-09-15 11:31:20,716 django.server:212 - "OPTIONS /api/auth/logout/ HTTP/1.1" 200 0
+[WARNING] 2025-09-15 11:31:20,720 django.request:246 - Unauthorized: /api/auth/logout/
+[WARNING] 2025-09-15 11:31:20,721 django.server:212 - "POST /api/auth/logout/ HTTP/1.1" 401 58
+[INFO] 2025-09-15 11:39:23,084 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 11:39:24,477 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:39:55,965 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 11:39:56,493 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:40:55,281 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 11:40:55,818 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:41:02,586 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 11:41:03,112 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:42:57,200 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 11:42:58,018 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:44:09,105 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-15 11:44:09,658 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:44:18,084 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-15 11:44:18,652 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:45:00,284 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 11:45:00,810 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:45:26,181 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 11:45:26,737 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:45:33,511 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 11:45:34,204 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:51:20,257 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 11:51:20,829 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:51:27,834 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 11:51:28,363 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:51:45,773 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-15 11:51:46,374 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:51:52,612 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-15 11:51:53,896 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 11:52:09,215 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 2
+[WARNING] 2025-09-15 11:52:10,934 django.request:246 - Unauthorized: /api/auth/profile/
+[WARNING] 2025-09-15 11:52:10,935 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 401 58
+[WARNING] 2025-09-15 11:52:10,972 django.request:246 - Unauthorized: /api/auth/logout/
+[WARNING] 2025-09-15 11:52:10,973 django.server:212 - "POST /api/auth/logout/ HTTP/1.1" 401 58
+[INFO] 2025-09-15 11:59:48,093 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 2
+[INFO] 2025-09-15 12:03:02,665 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 2
+[WARNING] 2025-09-15 12:03:02,672 django.request:246 - Unauthorized: /api/auth/profile/
+[WARNING] 2025-09-15 12:03:02,672 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 401 58
+[INFO] 2025-09-15 12:08:28,299 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 2
+[WARNING] 2025-09-15 12:08:28,315 django.request:246 - Unauthorized: /api/auth/profile/
+[WARNING] 2025-09-15 12:08:28,315 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 401 58
+[INFO] 2025-09-15 12:14:43,443 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 12:14:44,133 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:14:52,177 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 12:14:52,811 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:15:52,834 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 2
+[WARNING] 2025-09-15 12:15:52,869 django.request:246 - Unauthorized: /api/auth/profile/
+[WARNING] 2025-09-15 12:15:52,870 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 401 58
+[INFO] 2025-09-15 12:19:55,555 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 2
+[INFO] 2025-09-15 12:20:03,670 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 2
+[INFO] 2025-09-15 12:22:33,434 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 12:22:34,051 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:22:38,855 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 34
+[INFO] 2025-09-15 12:22:41,018 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 12:22:42,170 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:23:52,032 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 12:23:52,798 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:23:58,192 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 2
+[INFO] 2025-09-15 12:24:00,286 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 12:24:01,363 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:29:44,720 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 12:29:45,269 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:30:43,106 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 12:30:43,688 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:30:49,378 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 2
+[INFO] 2025-09-15 12:30:51,839 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/serializers.py changed, reloading.
+[INFO] 2025-09-15 12:30:52,439 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:30:58,730 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 12:30:59,319 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:31:06,034 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/views.py changed, reloading.
+[INFO] 2025-09-15 12:31:06,593 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:31:45,178 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-15 12:31:46,411 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:31:53,223 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-15 12:31:54,033 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:32:03,791 django.utils.autoreload:265 - /media/mferej/New Volume2/djangu/furniture-backend-main/users/urls.py changed, reloading.
+[INFO] 2025-09-15 12:32:04,337 django.utils.autoreload:667 - Watching for file changes with StatReloader
+[INFO] 2025-09-15 12:32:08,050 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-09-15 12:33:12,107 django.server:212 - "GET /api/auth/all/ HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:34:27,276 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[WARNING] 2025-09-15 12:34:27,286 django.request:246 - Unauthorized: /api/auth/profile/
+[WARNING] 2025-09-15 12:34:27,287 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 401 58
+[INFO] 2025-09-15 12:36:14,522 django.server:212 - "OPTIONS /api/auth/login/ HTTP/1.1" 200 0
+[INFO] 2025-09-15 12:36:14,923 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-09-15 12:36:16,333 django.server:212 - "OPTIONS /api/auth/profile/ HTTP/1.1" 200 0
+[INFO] 2025-09-15 12:36:16,338 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 200 105
+[INFO] 2025-09-15 12:36:16,874 django.server:212 - "OPTIONS /api/auth/users/?page=1&search= HTTP/1.1" 200 0
+[INFO] 2025-09-15 12:36:16,940 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:36:16,998 django.server:212 - "OPTIONS /api/auth/users/?page=1&search= HTTP/1.1" 200 0
+[INFO] 2025-09-15 12:36:17,079 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:36:44,544 django.server:212 - "OPTIONS /api/auth/logout/ HTTP/1.1" 200 0
+[WARNING] 2025-09-15 12:36:44,562 django.request:246 - Bad Request: /api/auth/logout/
+[WARNING] 2025-09-15 12:36:44,565 django.server:212 - "POST /api/auth/logout/ HTTP/1.1" 400 26
+[INFO] 2025-09-15 12:36:48,358 django.server:212 - "POST /api/auth/login/ HTTP/1.1" 200 582
+[INFO] 2025-09-15 12:36:49,747 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 200 105
+[INFO] 2025-09-15 12:36:50,004 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:36:50,004 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:37:42,493 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 200 105
+[INFO] 2025-09-15 12:37:42,630 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:37:42,643 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:49:08,873 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 200 105
+[INFO] 2025-09-15 12:49:08,903 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 200 105
+[INFO] 2025-09-15 12:49:08,958 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:49:08,958 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:49:21,834 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 200 105
+[INFO] 2025-09-15 12:49:21,837 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 200 105
+[INFO] 2025-09-15 12:49:21,956 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:49:21,958 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:50:41,674 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 200 105
+[INFO] 2025-09-15 12:50:41,788 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:50:41,822 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:50:48,334 django.server:212 - "GET /api/auth/profile/ HTTP/1.1" 200 105
+[INFO] 2025-09-15 12:50:48,578 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828
+[INFO] 2025-09-15 12:50:48,579 django.server:212 - "GET /api/auth/users/?page=1&search= HTTP/1.1" 200 828

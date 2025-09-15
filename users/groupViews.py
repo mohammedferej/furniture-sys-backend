@@ -5,8 +5,8 @@ from rest_framework.permissions import IsAdminUser
 from django.contrib.auth.models import Group
 from django.contrib.auth import get_user_model
 
-from users.groupserializers import GroupSerializer, PermissionSerializer
-from .serializers import  AssignGroupSerializer
+from users.groupserializers import AssignGroupSerializer, GroupSerializer, PermissionSerializer
+
 
 User = get_user_model()
 

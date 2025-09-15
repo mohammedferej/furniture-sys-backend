@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from decouple import config
+from decouple import config,Csv
 from django.core.exceptions import ImproperlyConfigured
 from datetime import timedelta
 
@@ -14,8 +14,36 @@ if not SECRET_KEY:
 # Debug
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Allow only specific origins (frontend)
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",  # your frontend
+]
 
+
+# Allow cookies to be sent cross-origin
+CORS_ALLOW_CREDENTIALS = True
+
+# Make sure methods and headers are allowed
+CORS_ALLOW_METHODS = [
+    "DELETE",
+    "GET",
+    "OPTIONS",
+    "PATCH",
+    "POST",
+    "PUT",
+]
+
+CORS_ALLOW_HEADERS = [
+    "accept",
+    "accept-encoding",
+    "authorization",
+    "content-type",
+    "dnt",
+    "origin",
+    "user-agent",
+    "x-csrftoken",
+    "x-requested-with",
+]
 # Installed apps
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -140,20 +168,17 @@ REST_FRAMEWORK = {
 
 # Simple JWT
 SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(minutes=60),
-    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
-    'ROTATE_REFRESH_TOKENS': True,
-    'BLACKLIST_AFTER_ROTATION': True,
-    'UPDATE_LAST_LOGIN': True,
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=30),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
+    "ROTATE_REFRESH_TOKENS": True,
+    "BLACKLIST_AFTER_ROTATION": True,
+    "AUTH_COOKIE": "access",  # name of the access token cookie
+    "AUTH_COOKIE_REFRESH": "refresh",  # refresh token cookie
+    "AUTH_COOKIE_HTTP_ONLY": True,
+    "AUTH_COOKIE_SECURE": False,  # True in production (HTTPS)
+    "AUTH_COOKIE_SAMESITE": "Lax",
 }
 
-# CORS
-CORS_ALLOW_ALL_ORIGINS = False
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://10.11.0.65:3000",
-]
-CORS_ALLOW_METHODS = ['DELETE', 'GET', 'OPTIONS', 'PATCH', 'POST', 'PUT']
 
 # Logging
 import logging

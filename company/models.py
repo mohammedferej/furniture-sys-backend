@@ -1,6 +1,7 @@
 from django.db import models
 
 class CompanyInfo(models.Model):
+    id = models.BigAutoField(primary_key=True)
     name = models.CharField(max_length=200)
     address = models.TextField()
     phone = models.CharField(max_length=50)
